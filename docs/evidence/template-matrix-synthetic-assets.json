@@ -1,0 +1,1494 @@
+{
+  "prototype_only_not_generated_deck": true,
+  "every_image_reference_uses_synthetic_png": true,
+  "actual_asset_resolution_tested": false,
+  "svg_conversion_tested": false,
+  "browser_model_powerpoint_ui_tested": false,
+  "failures_and_warnings_preserved": true,
+  "templates": [
+    {
+      "template": "standard",
+      "passed": 11,
+      "total": 11,
+      "items": [
+        {
+          "id": "left_image_right_cover_text_7212",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png"
+          ],
+          "ok": true,
+          "warnings": [
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[3].elements[0].shadow",
+              "message": "Shadows are not exported"
+            }
+          ]
+        },
+        {
+          "id": "left_chart_right_title_description_5880",
+          "synthetic_asset_references": [],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "left_image_right_details_2189",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png"
+          ],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "left_image_right_title_strategy_cards_6875",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/image6-d77d5bd67ea3.png"
+          ],
+          "ok": true,
+          "warnings": [
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[3].elements[0].shadow",
+              "message": "Shadows are not exported"
+            }
+          ]
+        },
+        {
+          "id": "left_text_list_right_title_note_4909",
+          "synthetic_asset_references": [],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "title_image_background_center_card_1475",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "static/image8-1bc3f07c9b32.png"
+          ],
+          "ok": true,
+          "warnings": [
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[3].elements[0].shadow",
+              "message": "Shadows are not exported"
+            }
+          ]
+        },
+        {
+          "id": "center_title_cards_2395",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png"
+          ],
+          "ok": true,
+          "warnings": [
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[1].elements[1]",
+              "message": "Element extends beyond the slide bounds; its original geometry is preserved"
+            },
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[2].elements[0].children[0].children[0].shadow",
+              "message": "Shadows are not exported"
+            },
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[2].elements[0].children[1].children[0].shadow",
+              "message": "Shadows are not exported"
+            },
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[2].elements[0].children[2].children[0].shadow",
+              "message": "Shadows are not exported"
+            }
+          ]
+        },
+        {
+          "id": "title_metric_card_grid_7973",
+          "synthetic_asset_references": [],
+          "ok": true,
+          "warnings": [
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[2].elements[0].children[0].children[0].shadow",
+              "message": "Shadows are not exported"
+            },
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[2].elements[0].children[1].children[0].shadow",
+              "message": "Shadows are not exported"
+            },
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[2].elements[0].children[2].children[0].shadow",
+              "message": "Shadows are not exported"
+            },
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[2].elements[0].children[3].children[0].shadow",
+              "message": "Shadows are not exported"
+            },
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[2].elements[0].children[4].children[0].shadow",
+              "message": "Shadows are not exported"
+            },
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[2].elements[0].children[5].children[0].shadow",
+              "message": "Shadows are not exported"
+            }
+          ]
+        },
+        {
+          "id": "left_timeline_center_image_right_title_6170",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png"
+          ],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "title_index_grid_3810",
+          "synthetic_asset_references": [],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "title_description_metric_cards_2015",
+          "synthetic_asset_references": [],
+          "ok": true,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "template": "general",
+      "passed": 7,
+      "total": 12,
+      "items": [
+        {
+          "id": "title_intro",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png"
+          ],
+          "ok": true,
+          "warnings": [
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[1].elements[0].shadow",
+              "message": "Shadows are not exported"
+            },
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[2].elements[3].children[0].shadow",
+              "message": "Shadows are not exported"
+            }
+          ]
+        },
+        {
+          "id": "title_description_image",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png"
+          ],
+          "ok": true,
+          "warnings": [
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[1].elements[0].shadow",
+              "message": "Shadows are not exported"
+            }
+          ]
+        },
+        {
+          "id": "title_image_bullet_points_1",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "/static/images/replaceable_template_image.png",
+            "static/image2-ec1c92dee7a3.png",
+            "static/image3-82be19a88965.png",
+            "static/image8-09632504cf99.png",
+            "static/image9-68eb2d8ed47c.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[3].color: Icon recoloring is unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[3].color"
+        },
+        {
+          "id": "title_description_bullet_points",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "/static/images/replaceable_template_image.png",
+            "static/image11-6ce50168d7ec.png",
+            "static/image12-2ed5eba60707.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[3].elements[1].children[0].children[1].color: Icon recoloring is unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[3].elements[1].children[0].children[1].color"
+        },
+        {
+          "id": "title_description_chart_cards",
+          "synthetic_asset_references": [
+            "static/image17-3bad1e1bf9ec.png",
+            "static/image18-7076e2044973.png",
+            "static/image19-8efba41be759.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[3].elements[0].children[0].children[1].color: Icon recoloring is unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[3].elements[0].children[0].children[1].color"
+        },
+        {
+          "id": "title_metrics_description",
+          "synthetic_asset_references": [
+            "static/image20-6875b30b26c2.png",
+            "static/image21-f2b82e740bc2.png"
+          ],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "title_image_description_metrics",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/image22-6dd2f52e896c.png",
+            "static/image23-f21b824d69c7.png"
+          ],
+          "ok": true,
+          "warnings": [
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[1].elements[0].shadow",
+              "message": "Shadows are not exported"
+            }
+          ]
+        },
+        {
+          "id": "title_image_bullet_points",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/image26-6ba37bd671c7.png"
+          ],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "title_quote_image",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "/static/images/replaceable_template_image.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[1].elements[2].color: Icon recoloring is unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[1].elements[2].color"
+        },
+        {
+          "id": "title_table_description",
+          "synthetic_asset_references": [
+            "static/image20-6875b30b26c2.png",
+            "static/image21-f2b82e740bc2.png"
+          ],
+          "ok": true,
+          "warnings": [
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[2].elements[0].shadow",
+              "message": "Shadows are not exported"
+            }
+          ]
+        },
+        {
+          "id": "table_of_contents",
+          "synthetic_asset_references": [
+            "static/image32-e024f0f6ca8c.png"
+          ],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "title_description_team_cards",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/image33-ae1f10d83bac.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[1].elements[0].children[1]: Vectors inside flow layouts require resolved absolute geometry",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[1].elements[0].children[1]"
+        }
+      ]
+    },
+    {
+      "template": "civic",
+      "passed": 5,
+      "total": 29,
+      "items": [
+        {
+          "id": "abstract_arch_background_with_title_and_metadata_footer_9851",
+          "synthetic_asset_references": [
+            "static/Freeform_2-8c89b51c0558.jpg"
+          ],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "left_copy_with_right_image_mosaic_9942",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/Freeform_10-80a910c5327f.jpg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[3].elements[0].crop_scale: Image zoom requires caller-resolved cropping",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[3].elements[0].crop_scale"
+        },
+        {
+          "id": "alternating_image_overview_sequence_2589",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/Freeform_10-80a910c5327f.jpg",
+            "static/Freeform_3-485276c0279f.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[2].elements[0].children[2].children[2].children[1]: Flex/grid overrides, spans and manual positions are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[2].elements[0].children[2].children[2].children[1]"
+        },
+        {
+          "id": "asymmetrical_photo_collage_with_right_copy_8684",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/Freeform_7-2a11bd12715a.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[1].elements[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[1].elements[0].clip_path"
+        },
+        {
+          "id": "diagonal_image_text_cards_with_summary_6734",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/Freeform_2-3cf933db0555.jpg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[1].elements[0].children[0].children[0].size: Expected an object",
+          "error_code": "invalid_input",
+          "error_path": "slides[0].ui.components[1].elements[0].children[0].children[0].size"
+        },
+        {
+          "id": "intro_copy_with_abstract_feature_cards_9715",
+          "synthetic_asset_references": [
+            "static/Freeform_3-cff71ab40b24.jpg",
+            "static/Freeform_5-7917d43ffcfc.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[1].elements[0].children[0].children[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[1].elements[0].children[0].children[0].clip_path"
+        },
+        {
+          "id": "side_badges_with_comparison_rows_6038",
+          "synthetic_asset_references": [
+            "static/Freeform_13-ece66ddaa7c4.svg",
+            "static/Freeform_23-c3b96d59d953.svg",
+            "static/Freeform_4-6c5021961416.svg",
+            "static/Freeform_6-37a41fd111f6.svg",
+            "static/Freeform_8-ea71cd7fc7fb.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[3].elements[0]: Flex shrinking is unsupported; resolve layout geometry before export",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[3].elements[0]"
+        },
+        {
+          "id": "hanging_numbered_nodes_with_summary_cards_6120",
+          "synthetic_asset_references": [
+            "static/Freeform_13-63368e35621f.svg",
+            "static/Freeform_19-61caa67485e6.svg",
+            "static/Freeform_2-3cf933db0555.jpg",
+            "static/Freeform_3-cff71ab40b24.jpg",
+            "static/Freeform_7-da9dd631b076.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[1].elements[0].children[0].children[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[1].elements[0].children[0].children[1].clip_path"
+        },
+        {
+          "id": "hero_image_with_summary_title_and_gallery_6929",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/Freeform_2-3cf933db0555.jpg",
+            "static/Freeform_8-5294886fe92d.svg"
+          ],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "circular_topic_nodes_with_header_7603",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "static/Freeform_10-80a910c5327f.jpg",
+            "static/Freeform_10-a34cdd6d40a3.svg",
+            "static/Freeform_16-bddf3f0cb585.svg",
+            "static/Freeform_19-7a21fcac0ec5.svg",
+            "static/Freeform_22-92c6ffead524.svg",
+            "static/Freeform_4-3c4775f1b9e8.svg",
+            "static/Freeform_7-88065431cd24.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].crop_scale: Image zoom requires caller-resolved cropping",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].crop_scale"
+        },
+        {
+          "id": "dated_title_with_comparison_cards_7389",
+          "synthetic_asset_references": [
+            "static/Freeform_10-80a910c5327f.jpg",
+            "static/Freeform_12-17b39081339a.svg",
+            "static/Freeform_3-cff71ab40b24.jpg",
+            "static/Freeform_7-f4ee60d225a2.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].crop_scale: Image zoom requires caller-resolved cropping",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].crop_scale"
+        },
+        {
+          "id": "editorial_heading_with_image_mosaic_1405",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/Freeform_2-3cf933db0555.jpg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[2].elements[0].children[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[2].elements[0].children[0].clip_path"
+        },
+        {
+          "id": "offset_title_summary_with_framed_image_7616",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/Freeform_2-3cf933db0555.jpg",
+            "static/Freeform_4-73dd66d8ed63.svg"
+          ],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "centered_header_with_stepped_process_roadmap_6835",
+          "synthetic_asset_references": [
+            "static/Freeform_20-289d3b26b2a3.svg",
+            "static/Freeform_4-55ef268efc59.svg",
+            "static/Freeform_6-d8473d222943.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[2].elements[0].children[2].children[0].children[0]: Group/container rotation or mirroring is not supported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[2].elements[0].children[2].children[0].children[0]"
+        },
+        {
+          "id": "intro_copy_with_vertical_approach_cards_9074",
+          "synthetic_asset_references": [
+            "static/Freeform_11-4ac1256f3ed0.svg",
+            "static/Freeform_15-225d5488a469.svg",
+            "static/Freeform_18-62723f38c109.svg",
+            "static/Freeform_3-b72feb9bf18e.svg",
+            "static/Freeform_8-16c5d9301fea.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[1].elements[0].children[0].children[1]: Group/container rotation or mirroring is not supported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[1].elements[0].children[0].children[1]"
+        },
+        {
+          "id": "split_header_with_metric_cards_5884",
+          "synthetic_asset_references": [
+            "static/Freeform_10-24db97bcbaf4.svg",
+            "static/Freeform_12-ff2de271095c.svg",
+            "static/Freeform_17-72f185465166.svg",
+            "static/Freeform_19-c183151bad67.svg",
+            "static/Freeform_3-cff71ab40b24.jpg",
+            "static/Freeform_5-2f15cb40978b.svg",
+            "static/Freeform_7-38547fce8820.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[3].elements[0].children[3].children[0].children[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[3].elements[0].children[3].children[0].children[0].clip_path"
+        },
+        {
+          "id": "split_hero_with_feature_list_and_summary_card_9506",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "/static/images/replaceable_template_image.png",
+            "static/Freeform_12-387169529418.svg",
+            "static/Freeform_17-d667f25470fa.svg",
+            "static/Freeform_24-c9a198c24147.svg",
+            "static/Freeform_3-cff71ab40b24.jpg",
+            "static/Freeform_31-f1b5c90bb201.svg",
+            "static/Freeform_6-bc31653919d6.svg",
+            "static/Freeform_9-688c80ef1f49.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[6].elements[0].children[0].children[1].size: Expected an object",
+          "error_code": "invalid_input",
+          "error_path": "slides[0].ui.components[6].elements[0].children[0].children[1].size"
+        },
+        {
+          "id": "editorial_cover_with_capsule_image_and_summary_6927",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/Freeform_2-3cf933db0555.jpg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[1].elements[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[1].elements[0].clip_path"
+        },
+        {
+          "id": "title_summary_with_alternating_image_timeline_7905",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/Freeform_10-7976ec78d249.svg",
+            "static/Freeform_12-7976ec78d249.svg",
+            "static/Freeform_23-9abaf7270ea6.svg",
+            "static/Freeform_26-9abaf7270ea6.svg",
+            "static/Freeform_29-9abaf7270ea6.svg",
+            "static/Freeform_32-9abaf7270ea6.svg",
+            "static/Freeform_5-7976ec78d249.svg",
+            "static/Freeform_8-7976ec78d249.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[3].elements[0].children[1].children[0].children[0].children[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[3].elements[0].children[1].children[0].children[0].children[1].clip_path"
+        },
+        {
+          "id": "asymmetric_photo_collage_with_metric_cards_9842",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[1].elements[0]: Flex shrinking is unsupported; resolve layout geometry before export",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[1].elements[0]"
+        },
+        {
+          "id": "dark_sidebar_with_intro_and_comparison_table_3150",
+          "synthetic_asset_references": [
+            "static/Freeform_3-cff71ab40b24.jpg",
+            "static/Freeform_4-79e0cb5ef70c.svg"
+          ],
+          "ok": true,
+          "warnings": [
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[1].elements[0].children[0].children[0]",
+              "message": "Element extends beyond the slide bounds; its original geometry is preserved"
+            }
+          ]
+        },
+        {
+          "id": "alternating_icon_cards_with_process_ribbon_4188",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "static/Freeform_10-80a910c5327f.jpg",
+            "static/Freeform_21-816708d6c023.svg",
+            "static/Freeform_23-b764a520647a.svg",
+            "static/Freeform_24-42fa62deaa89.svg",
+            "static/Freeform_26-cc351e3d2748.svg",
+            "static/Freeform_3-9fb6c5f09310.svg",
+            "static/Freeform_7-62bd5071041a.png",
+            "static/Freeform_9-77aefaed49db.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].crop_scale: Image zoom requires caller-resolved cropping",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].crop_scale"
+        },
+        {
+          "id": "staggered_metric_cards_with_intro_4366",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "static/Freeform_10-80a910c5327f.jpg",
+            "static/Freeform_12-24413f5a0f41.svg",
+            "static/Freeform_3-cff71ab40b24.jpg",
+            "static/Freeform_4-6326aa7a0103.svg",
+            "static/Freeform_7-8bd9e2fcd9c2.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].crop_scale: Image zoom requires caller-resolved cropping",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].crop_scale"
+        },
+        {
+          "id": "metric_cards_with_chart_and_summary_panel_5083",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "static/Freeform_11-71113224d0a0.svg",
+            "static/Freeform_14-a2f94ab6c789.svg",
+            "static/Freeform_3-54f2de74c798.svg",
+            "static/Freeform_6-77d46f446c27.svg",
+            "static/Freeform_9-24d5ef75b1a7.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[2].elements[0].children[1]: Flex shrinking is unsupported; resolve layout geometry before export",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[2].elements[0].children[1]"
+        },
+        {
+          "id": "dated_title_with_staggered_image_cards_2285",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/Freeform_10-80a910c5327f.jpg",
+            "static/Freeform_17-8d2938d57793.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[4].elements[0].crop_scale: Image zoom requires caller-resolved cropping",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[4].elements[0].crop_scale"
+        },
+        {
+          "id": "dated_title_with_icon_led_comparison_table_9465",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "static/Freeform_10-80a910c5327f.jpg",
+            "static/Freeform_10-b3d561652dd2.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[1].elements[0].children[1].crop_scale: Image zoom requires caller-resolved cropping",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[1].elements[0].children[1].crop_scale"
+        },
+        {
+          "id": "header_with_chart_and_progress_metric_cards_1649",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "static/Freeform_10-80a910c5327f.jpg",
+            "static/Freeform_12-9241e3c02388.svg",
+            "static/Freeform_16-fa926b94716f.svg",
+            "static/Freeform_20-bf1346549b35.svg",
+            "static/Freeform_23-fe3b50e8ca41.svg",
+            "static/Freeform_3-cff71ab40b24.jpg",
+            "static/Freeform_3-dfde547d84b1.svg",
+            "static/Freeform_6-0831ddfb4560.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].crop_scale: Image zoom requires caller-resolved cropping",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].crop_scale"
+        },
+        {
+          "id": "framed_photos_with_centered_editorial_columns_9462",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/Freeform_10-80a910c5327f.jpg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0].children[1].crop_scale: Image zoom requires caller-resolved cropping",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0].children[1].crop_scale"
+        },
+        {
+          "id": "abstract_background_with_right_aligned_closing_message_8439",
+          "synthetic_asset_references": [
+            "static/Freeform_2-8c89b51c0558.jpg"
+          ],
+          "ok": true,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "template": "editorial",
+      "passed": 0,
+      "total": 24,
+      "items": [
+        {
+          "id": "title_slide_with_image_collage_and_footer",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/freeform_10-4b343a8f6dd6.svg",
+            "static/freeform_14-304eff937d6d.svg",
+            "static/freeform_17-249f8fb76642.svg",
+            "static/freeform_20-683d921055a8.svg",
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/freeform_7-a20cd002a6e5.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_with_numbered_list_in_two_columns",
+          "synthetic_asset_references": [
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "large_title_with_curved_side_image",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/freeform_3-aea2ce21dee0.svg",
+            "static/freeform_8-c34af73bed7d.svg",
+            "static/image1-615fb2b5b0f5.png",
+            "static/image6-16889f6f3a56.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_description_list_of_items_with_heading_description",
+          "synthetic_asset_references": [
+            "static/freeform_19-196ae6b92dc2.svg",
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/freeform_7-91af3141e6fe.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_with_four_callouts_around_center_graphic",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/image1-615fb2b5b0f5.png",
+            "static/image8-89cdbfb14e09.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_with_stacked_rows_and_side_graphic",
+          "synthetic_asset_references": [
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/image-8d3c8ac86a1e8005.png",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_with_five_items_on_vertical_branching_path",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "static/freeform_10-7423a02c5a0b.svg",
+            "static/freeform_13-7423a02c5a0b.svg",
+            "static/freeform_16-7423a02c5a0b.svg",
+            "static/freeform_19-7423a02c5a0b.svg",
+            "static/freeform_27-6bc95e6e02fe.svg",
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/freeform_30-6bc95e6e02fe.svg",
+            "static/freeform_33-6bc95e6e02fe.svg",
+            "static/freeform_36-6bc95e6e02fe.svg",
+            "static/freeform_39-6bc95e6e02fe.svg",
+            "static/freeform_7-7423a02c5a0b.svg",
+            "static/image1-615fb2b5b0f5.png",
+            "static/image27-01b214bfecdc.png",
+            "static/image29-b70f71ba92d8.png",
+            "static/image31-b4c49ed0099a.png",
+            "static/image33-038ae472424b.png",
+            "static/image35-8f1271ad4871.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_description_with_four_items_on_arch",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/image1-615fb2b5b0f5.png",
+            "static/image37-7e1aac595afd.png",
+            "static/image39-8fbe94b86c23.png",
+            "static/image41-ba1074e5cab4.png",
+            "static/image43-582f1b0bd22b.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_with_side_image_and_bottom_callout_cards",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "/static/images/replaceable_template_image.png",
+            "static/freeform_14-549f7c1b88ef.svg",
+            "static/freeform_17-89b9975edf67.svg",
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/freeform_7-9f3a942686b7.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_description_with_six_alternating_timeline_callouts",
+          "synthetic_asset_references": [
+            "static/freeform_12-fb6e3747a40a.svg",
+            "static/freeform_16-fb6e3747a40a.svg",
+            "static/freeform_20-fb6e3747a40a.svg",
+            "static/freeform_24-fb6e3747a40a.svg",
+            "static/freeform_28-fb6e3747a40a.svg",
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/freeform_45-512b0c0e8c7a.svg",
+            "static/freeform_46-bd7ae8588550.svg",
+            "static/freeform_47-512b0c0e8c7a.svg",
+            "static/freeform_48-2b116a92bc11.svg",
+            "static/freeform_49-3ab584d0fd10.svg",
+            "static/freeform_50-2b116a92bc11.svg",
+            "static/freeform_9-fb6e3747a40a.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_description_left_chart_right",
+          "synthetic_asset_references": [
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/freeform_7-0859355ddfa6.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_with_large_chart_metric_cards_and_callouts",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_with_center_graphic_and_four_side_metric_callouts",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/image1-615fb2b5b0f5.png",
+            "static/image64-978b5a6e637c.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_with_four_callouts_on_wave_timeline",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "static/freeform_11-6401af7d98d8.svg",
+            "static/freeform_14-6401af7d98d8.svg",
+            "static/freeform_17-6401af7d98d8.svg",
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/freeform_8-6401af7d98d8.svg",
+            "static/image1-615fb2b5b0f5.png",
+            "static/image76-5e0300acacc6.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_with_multi_panel_chart_and_metric_grid",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/freeform_6-b8ecad75aca7.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_with_three_chart_panels_and_three_gauge_cards",
+          "synthetic_asset_references": [
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_with_two_upper_charts_lower_description_and_metrics",
+          "synthetic_asset_references": [
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_with_concentric_circles_and_linked_side_cards",
+          "synthetic_asset_references": [
+            "static/freeform_10-6a93d756797e.svg",
+            "static/freeform_13-ae44a4bca002.svg",
+            "static/freeform_16-b705ebb9bd02.svg",
+            "static/freeform_19-94812e314f28.svg",
+            "static/freeform_23-702066843570.svg",
+            "static/freeform_26-702066843570.svg",
+            "static/freeform_29-702066843570.svg",
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/freeform_32-702066843570.svg",
+            "static/freeform_35-702066843570.svg",
+            "static/freeform_39-517e97cf0da5.svg",
+            "static/freeform_42-4747971af694.svg",
+            "static/freeform_45-2c4b6974e56f.svg",
+            "static/freeform_48-3b3a9cc13ef2.svg",
+            "static/freeform_51-d305a9288a99.svg",
+            "static/freeform_7-aceb3eb45350.svg",
+            "static/image1-615fb2b5b0f5.png",
+            "static/image96-15deb611fdd9.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_description_with_row_of_gauge_cards",
+          "synthetic_asset_references": [
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/freeform_7-dd282336b126.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_description_above_full_width_line_chart",
+          "synthetic_asset_references": [
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "large_text_block_with_side_image",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/freeform_6-83d527cd6a35.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_description_with_metric_list_and_bottom_timeline",
+          "synthetic_asset_references": [
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_with_row_of_image_heading_subheading_cards",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/freeform_29-63c413265c4c.svg",
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/freeform_7-dd285c6df16e.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_description_with_items_along_winding_path",
+          "synthetic_asset_references": [
+            "static/freeform_3-eac87b3b9ab0.svg",
+            "static/image1-615fb2b5b0f5.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        }
+      ]
+    },
+    {
+      "template": "executive",
+      "passed": 5,
+      "total": 32,
+      "items": [
+        {
+          "id": "centered_title_metadata_6418",
+          "synthetic_asset_references": [
+            "static/image1-7f30c6c93dd1.png",
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0].clip_path"
+        },
+        {
+          "id": "large_title_list_footer_2424",
+          "synthetic_asset_references": [
+            "static/image1-7f30c6c93dd1.png",
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0].clip_path"
+        },
+        {
+          "id": "title_copy_right_image_footer_6858",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png"
+          ],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "title_text_right_image_footer_8576",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/image1-7f30c6c93dd1.png",
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0].clip_path"
+        },
+        {
+          "id": "title_with_card_grid_footer_1945",
+          "synthetic_asset_references": [],
+          "ok": false,
+          "error": "slides[0].ui.components[1].elements[0].children[0].border_radius: Asymmetric corner radii are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[1].elements[0].children[0].border_radius"
+        },
+        {
+          "id": "title_with_stacked_cards_2967",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg",
+            "static/image1-7f30c6c93dd1.png",
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0]: Group/container rotation or mirroring is not supported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0]"
+        },
+        {
+          "id": "header_curve_callouts_footer_7432",
+          "synthetic_asset_references": [
+            "static/freeform_12-356df2a648d5.svg",
+            "static/freeform_15-356df2a648d5.svg",
+            "static/freeform_18-356df2a648d5.svg",
+            "static/freeform_2-cc80a5f71f54.svg",
+            "static/freeform_21-356df2a648d5.svg",
+            "static/image1-7f30c6c93dd1.png",
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0]: Group/container rotation or mirroring is not supported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0]"
+        },
+        {
+          "id": "title_comparison_cards_footer_2257",
+          "synthetic_asset_references": [],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "title_cards_chart_footer_2861",
+          "synthetic_asset_references": [
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0].clip_path"
+        },
+        {
+          "id": "title_metrics_image_layout_9576",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png"
+          ],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "title_with_metric_bubbles_9090",
+          "synthetic_asset_references": [
+            "static/image1-7f30c6c93dd1.png",
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_staggered_metric_cards_3768",
+          "synthetic_asset_references": [],
+          "ok": false,
+          "error": "slides[0].ui.components[2].elements[0].children[0].children[0].border_radius: Asymmetric corner radii are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[2].elements[0].children[0].children[0].border_radius"
+        },
+        {
+          "id": "title_cards_chart_panel_9233",
+          "synthetic_asset_references": [
+            "static/image1-7f30c6c93dd1.png",
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[1].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[1].clip_path"
+        },
+        {
+          "id": "title_cards_footer_layout_3220",
+          "synthetic_asset_references": [],
+          "ok": false,
+          "error": "slides[0].ui.components[3].elements[0]: Grid gaps leave no content area",
+          "error_code": "invalid_input",
+          "error_path": "slides[0].ui.components[3].elements[0]"
+        },
+        {
+          "id": "title_with_chart_cards_footer_7145",
+          "synthetic_asset_references": [],
+          "ok": false,
+          "error": "slides[0].ui.components[1].elements[0].children[0].children[1].chart_type: Chart type 'pie' is unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[1].elements[0].children[0].children[1].chart_type"
+        },
+        {
+          "id": "title_chart_cards_footer_3693",
+          "synthetic_asset_references": [
+            "static/image1-7f30c6c93dd1.png",
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0].clip_path"
+        },
+        {
+          "id": "title_chart_side_cards_8164",
+          "synthetic_asset_references": [
+            "static/image1-7f30c6c93dd1.png",
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0].clip_path"
+        },
+        {
+          "id": "title_chart_metrics_cards_8029",
+          "synthetic_asset_references": [],
+          "ok": false,
+          "error": "slides[0].ui.components[5].elements[0].chart_type: Chart type 'pie' is unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[5].elements[0].chart_type"
+        },
+        {
+          "id": "title_metrics_cards_footer_1626",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[1].elements[0].children[0].children[1].border_radius: Asymmetric corner radii are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[1].elements[0].children[0].children[1].border_radius"
+        },
+        {
+          "id": "title_card_chart_footer_9567",
+          "synthetic_asset_references": [],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0].opacity: Element-level opacity is unsupported; font/fill/stroke opacity is supported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0].opacity"
+        },
+        {
+          "id": "testimonial_card_image_footer_9315",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0].clip_path"
+        },
+        {
+          "id": "title_text_with_right_image_8911",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png"
+          ],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "title_team_cards_2650",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[1].elements[0].children[0].children[0].border_radius: Asymmetric corner radii are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[1].elements[0].children[0].children[0].border_radius"
+        },
+        {
+          "id": "title_timeline_sections_footer_6488",
+          "synthetic_asset_references": [
+            "static/image1-7f30c6c93dd1.png",
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0]: Group/container rotation or mirroring is not supported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0]"
+        },
+        {
+          "id": "intro_pricing_cards_grid_5022",
+          "synthetic_asset_references": [],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "title_with_phase_cards_1554",
+          "synthetic_asset_references": [
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0].clip_path"
+        },
+        {
+          "id": "image_text_footer_layout_5494",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0].clip_path"
+        },
+        {
+          "id": "title_summary_with_cards_4840",
+          "synthetic_asset_references": [
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0].clip_path"
+        },
+        {
+          "id": "title_workflow_cards_footer_1837",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[1].elements[0].children[0].children[1].color: Icon recoloring is unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[1].elements[0].children[0].children[1].color"
+        },
+        {
+          "id": "title_risk_sections_map_7549",
+          "synthetic_asset_references": [
+            "static/image1-7f30c6c93dd1.png",
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0]: Group/container rotation or mirroring is not supported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0]"
+        },
+        {
+          "id": "title_diagram_callouts_footer_9350",
+          "synthetic_asset_references": [
+            "static/freeform_14-415898a77b60.svg",
+            "static/freeform_17-415898a77b60.svg",
+            "static/freeform_20-415898a77b60.svg",
+            "static/freeform_23-415898a77b60.svg",
+            "static/image-778d1de63f45a60f.png",
+            "static/image1-7f30c6c93dd1.png",
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0].clip_path"
+        },
+        {
+          "id": "title_text_right_illustration_9898",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png",
+            "static/image1-7f30c6c93dd1.png",
+            "static/image2-f9ab39ea57ed.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[0].elements[0].clip_path: Arbitrary image clip paths are unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[0].elements[0].clip_path"
+        }
+      ]
+    },
+    {
+      "template": "swift",
+      "passed": 5,
+      "total": 9,
+      "items": [
+        {
+          "id": "left_cover_text_right_image_2459",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png"
+          ],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "title_note_icon_cards_2844",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[2].elements[0].children[0].children[1].color: Icon recoloring is unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[2].elements[0].children[0].children[1].color"
+        },
+        {
+          "id": "title_cards_color_band_3936",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[2].elements[0].children[0].children[2].color: Icon recoloring is unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[2].elements[0].children[0].children[2].color"
+        },
+        {
+          "id": "left_intro_image_cards_2981",
+          "synthetic_asset_references": [
+            "/static/images/replaceable_template_image.png"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[2].elements[0]: Flex shrinking is unsupported; resolve layout geometry before export",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[2].elements[0]"
+        },
+        {
+          "id": "left_title_right_stacked_cards_2710",
+          "synthetic_asset_references": [
+            "static/image13-155e60388f78.png"
+          ],
+          "ok": true,
+          "warnings": [
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[2].elements[0].children[0].children[0].shadow",
+              "message": "Shadows are not exported"
+            },
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[2].elements[0].children[1].children[0].shadow",
+              "message": "Shadows are not exported"
+            },
+            {
+              "code": "appearance_difference",
+              "path": "slides[0].ui.components[2].elements[0].children[2].children[0].shadow",
+              "message": "Shadows are not exported"
+            }
+          ]
+        },
+        {
+          "id": "left_title_right_text_sections_1377",
+          "synthetic_asset_references": [
+            "static/image14-4a89d3fc557a.png"
+          ],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "title_index_grid_6248",
+          "synthetic_asset_references": [],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "title_table_panel_6574",
+          "synthetic_asset_references": [],
+          "ok": true,
+          "warnings": []
+        },
+        {
+          "id": "center_title_timeline_cards_9667",
+          "synthetic_asset_references": [
+            "/static/icons/placeholder.svg"
+          ],
+          "ok": false,
+          "error": "slides[0].ui.components[2].elements[1].children[0].children[4].color: Icon recoloring is unsupported",
+          "error_code": "unsupported_element",
+          "error_path": "slides[0].ui.components[2].elements[1].children[0].children[4].color"
+        }
+      ]
+    }
+  ]
+}

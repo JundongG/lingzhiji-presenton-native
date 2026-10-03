@@ -1,0 +1,1542 @@
+{
+  "schema_version": "presenton.native-canvas-diagnostics.v1",
+  "title": " 星澜实验室计划  - 覆盖项目：青岚研究、远星实验、澄海验证 - 预算单位：万元 - 目标日期区间：2026年11月至2027年1月 - 关注维度：预算调整、季度指标、方案进度、资源构成 - 全",
+  "theme": {
+    "primary": "#16a6a1",
+    "background": "#f3f7fa",
+    "card": "#243b62",
+    "stroke": "#cad4e0",
+    "primary_text": "#000000",
+    "background_text": "#243b62",
+    "graph_0": "#16a6a1",
+    "graph_1": "#e7a24c",
+    "graph_2": "#4c86c6",
+    "graph_3": "#7b69bb",
+    "graph_4": "#243b62",
+    "graph_5": "#e4eaf1",
+    "graph_6": "#cad4e0",
+    "graph_7": "#50647f",
+    "graph_8": "#ffffff",
+    "graph_9": "#1c43d3"
+  },
+  "slides": [
+    {
+      "index": 0,
+      "ui": {
+        "id": "native_cover",
+        "description": "Cover with a headline, short summary, three key points and an editable circular callout. Fixed geometry, no images.",
+        "components": [
+          {
+            "id": "native_cover_heading",
+            "description": "Cover with a headline, short summary, three key points and an editable circular callout. Fixed geometry, no images. native_cover_heading",
+            "position": {
+              "x": 64,
+              "y": 44
+            },
+            "elements": [
+              {
+                "type": "text",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 1152,
+                  "height": 84
+                },
+                "font": {
+                  "size": 36,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#243B62",
+                  "bold": true
+                },
+                "runs": [
+                  {
+                    "text": "星澜实验室跨季度研发计划\n与资源统筹安排",
+                    "font": {
+                      "size": 36,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#243B62",
+                      "bold": true,
+                      "italic": false,
+                      "underline": false,
+                      "line_height": 1.15,
+                      "letter_spacing": 0,
+                      "opacity": 1
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "headline",
+                "max_length": 300,
+                "min_length": 1,
+                "text": "星澜实验室跨季度研发计划\n与资源统筹安排",
+                "__presenton_manual_position": true
+              },
+              {
+                "type": "text",
+                "position": {
+                  "x": 0,
+                  "y": 100
+                },
+                "size": {
+                  "width": 1152,
+                  "height": 42
+                },
+                "font": {
+                  "size": 20,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#50647F",
+                  "bold": false
+                },
+                "runs": [
+                  {
+                    "text": "2026年11月至2027年1月 · 青岚研究 / 远星实验 / 澄海验证",
+                    "font": {
+                      "size": 20,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F",
+                      "bold": false
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "subtitle",
+                "max_length": 300,
+                "min_length": 1
+              }
+            ]
+          },
+          {
+            "id": "native_cover_content",
+            "description": "Cover with a headline, short summary, three key points and an editable circular callout. Fixed geometry, no images. native_cover_content",
+            "position": {
+              "x": 64,
+              "y": 220
+            },
+            "elements": [
+              {
+                "type": "container",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 740,
+                  "height": 370
+                },
+                "fill": {
+                  "color": "#F3F7FA"
+                },
+                "border_radius": {
+                  "tl": 16,
+                  "tr": 16,
+                  "bl": 16,
+                  "br": 16
+                },
+                "child": null
+              },
+              {
+                "type": "text",
+                "position": {
+                  "x": 28,
+                  "y": 26
+                },
+                "size": {
+                  "width": 680,
+                  "height": 94
+                },
+                "font": {
+                  "size": 30,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#243B62",
+                  "bold": false
+                },
+                "runs": [
+                  {
+                    "text": "本计划覆盖",
+                    "font": {
+                      "size": 30,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#243B62"
+                    }
+                  },
+                  {
+                    "text": "青岚研究、远星实验、澄海验证",
+                    "font": {
+                      "size": 30,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#243B62",
+                      "bold": true
+                    }
+                  },
+                  {
+                    "text": "三个项目，预算统一以万元为单位，目标时间区间为2026年11月至2027年1月，并围绕预算调整、季度指标、方案进度与资源构成四个维度持续跟踪。",
+                    "font": {
+                      "size": 30,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#243B62"
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "summary",
+                "max_length": 300,
+                "min_length": 1
+              },
+              {
+                "type": "text-list",
+                "position": {
+                  "x": 28,
+                  "y": 144
+                },
+                "size": {
+                  "width": 680,
+                  "height": 192
+                },
+                "font": {
+                  "size": 30,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#243B62"
+                },
+                "marker": "bullet",
+                "gap": 16,
+                "marker_gap": 10,
+                "items": [
+                  [
+                    {
+                      "text": "覆盖项目：青岚研究、远星实验、澄海验证",
+                      "font": {
+                        "size": 30,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62"
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "预算单位：万元",
+                      "font": {
+                        "size": 30,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62"
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "目标时间区间：2026年11月至2027年1月",
+                      "font": {
+                        "size": 30,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62"
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "font": {
+                        "size": 30,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62"
+                      },
+                      "text": "关注维度：预算调整、季度指标、方案进度、资源构成"
+                    }
+                  ],
+                  [
+                    {
+                      "font": {
+                        "size": 30,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62"
+                      },
+                      "text": "数据说明：全部名称与数值为虚构测试数据"
+                    }
+                  ]
+                ],
+                "decorative": false,
+                "name": "key_points",
+                "max_items": 6,
+                "min_items": 1,
+                "max_item_length": 100,
+                "min_item_length": 1
+              },
+              {
+                "type": "vector",
+                "name": "decorative_shape",
+                "shape": "ellipse",
+                "points": [
+                  {
+                    "x": 824,
+                    "y": 30
+                  },
+                  {
+                    "x": 1084,
+                    "y": 290
+                  }
+                ],
+                "closed": true,
+                "fill": {
+                  "color": "#16A6A1"
+                }
+              },
+              {
+                "type": "text",
+                "position": {
+                  "x": 864,
+                  "y": 103
+                },
+                "size": {
+                  "width": 180,
+                  "height": 126
+                },
+                "font": {
+                  "size": 34,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#FFFFFF",
+                  "bold": true
+                },
+                "runs": [
+                  {
+                    "text": "提示：本计划全部项目名称与数值均为虚构测试数据，不含真实信息，不作对外引用。",
+                    "font": {
+                      "size": 34,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#FFFFFF",
+                      "bold": true,
+                      "italic": false,
+                      "underline": false,
+                      "line_height": 1.15,
+                      "letter_spacing": 0,
+                      "opacity": 1
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "callout",
+                "max_length": 300,
+                "min_length": 1,
+                "text": "提示：本计划全部项目名称与数值均为虚构测试数据，不含真实信息，不作对外引用。"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "ui": {
+        "id": "native_table",
+        "description": "Native editable table with 4 columns and 3 body rows. Keep cell text concise.",
+        "components": [
+          {
+            "id": "native_table_heading",
+            "description": "Native editable table with 4 columns and 3 body rows. Keep cell text concise. native_table_heading",
+            "position": {
+              "x": 64,
+              "y": 44
+            },
+            "elements": [
+              {
+                "type": "text",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 1152,
+                  "height": 96
+                },
+                "font": {
+                  "size": 36,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#243B62",
+                  "bold": true
+                },
+                "runs": [
+                  {
+                    "text": "预算调整与目标日期",
+                    "font": {
+                      "size": 36,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#243B62",
+                      "bold": true
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "headline",
+                "max_length": 300,
+                "min_length": 1
+              },
+              {
+                "type": "text",
+                "position": {
+                  "x": 0,
+                  "y": 100
+                },
+                "size": {
+                  "width": 1152,
+                  "height": 42
+                },
+                "font": {
+                  "size": 20,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#50647F",
+                  "bold": false
+                },
+                "runs": [
+                  {
+                    "text": "三个项目的修订预算均高于原预算，目标日期自2026年11月依次排至2027年1月",
+                    "font": {
+                      "size": 20,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F",
+                      "bold": false
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "subtitle",
+                "max_length": 300,
+                "min_length": 1
+              }
+            ]
+          },
+          {
+            "id": "native_table_content",
+            "description": "Native editable table with 4 columns and 3 body rows. Keep cell text concise. native_table_content",
+            "position": {
+              "x": 64,
+              "y": 220
+            },
+            "elements": [
+              {
+                "type": "table",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 1152,
+                  "height": 340
+                },
+                "columns": [
+                  {
+                    "color": {
+                      "color": "#243B62"
+                    },
+                    "font": {
+                      "size": 23,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#FFFFFF",
+                      "bold": true
+                    },
+                    "alignment": "left",
+                    "runs": [
+                      {
+                        "text": "项目",
+                        "font": {
+                          "size": 23,
+                          "family": "Noto Sans CJK SC",
+                          "color": "#FFFFFF",
+                          "bold": true
+                        }
+                      }
+                    ],
+                    "stroke": {
+                      "color": "#D8D3C4",
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  },
+                  {
+                    "color": {
+                      "color": "#243B62"
+                    },
+                    "font": {
+                      "size": 23,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#FFFFFF",
+                      "bold": true
+                    },
+                    "alignment": "left",
+                    "runs": [
+                      {
+                        "text": "原预算",
+                        "font": {
+                          "size": 23,
+                          "family": "Noto Sans CJK SC",
+                          "color": "#FFFFFF",
+                          "bold": true
+                        }
+                      }
+                    ],
+                    "stroke": {
+                      "color": "#D8D3C4",
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  },
+                  {
+                    "color": {
+                      "color": "#243B62"
+                    },
+                    "font": {
+                      "size": 23,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#FFFFFF",
+                      "bold": true
+                    },
+                    "alignment": "left",
+                    "runs": [
+                      {
+                        "text": "修订预算",
+                        "font": {
+                          "size": 23,
+                          "family": "Noto Sans CJK SC",
+                          "color": "#FFFFFF",
+                          "bold": true
+                        }
+                      }
+                    ],
+                    "stroke": {
+                      "color": "#D8D3C4",
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  },
+                  {
+                    "color": {
+                      "color": "#243B62"
+                    },
+                    "font": {
+                      "size": 23,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#FFFFFF",
+                      "bold": true
+                    },
+                    "alignment": "left",
+                    "runs": [
+                      {
+                        "text": "目标日期",
+                        "font": {
+                          "size": 23,
+                          "family": "Noto Sans CJK SC",
+                          "color": "#FFFFFF",
+                          "bold": true
+                        }
+                      }
+                    ],
+                    "stroke": {
+                      "color": "#D8D3C4",
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  }
+                ],
+                "rows": [
+                  [
+                    {
+                      "color": {
+                        "color": "#F3F7FA"
+                      },
+                      "font": {
+                        "size": 23,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62",
+                        "bold": false
+                      },
+                      "alignment": "left",
+                      "runs": [
+                        {
+                          "text": "青岚研究",
+                          "font": {
+                            "size": 23,
+                            "family": "Noto Sans CJK SC",
+                            "color": "#243B62",
+                            "bold": false
+                          }
+                        }
+                      ],
+                      "stroke": {
+                        "color": "#D8D3C4",
+                        "opacity": 1,
+                        "width": 1
+                      }
+                    },
+                    {
+                      "color": {
+                        "color": "#F3F7FA"
+                      },
+                      "font": {
+                        "size": 23,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62",
+                        "bold": false
+                      },
+                      "alignment": "left",
+                      "runs": [
+                        {
+                          "text": "120",
+                          "font": {
+                            "size": 23,
+                            "family": "Noto Sans CJK SC",
+                            "color": "#243B62",
+                            "bold": false
+                          }
+                        }
+                      ],
+                      "stroke": {
+                        "color": "#D8D3C4",
+                        "opacity": 1,
+                        "width": 1
+                      }
+                    },
+                    {
+                      "color": {
+                        "color": "#F3F7FA"
+                      },
+                      "font": {
+                        "size": 23,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62",
+                        "bold": false
+                      },
+                      "alignment": "left",
+                      "runs": [
+                        {
+                          "text": "168",
+                          "font": {
+                            "size": 23,
+                            "family": "Noto Sans CJK SC",
+                            "color": "#243B62",
+                            "bold": false
+                          }
+                        }
+                      ],
+                      "stroke": {
+                        "color": "#D8D3C4",
+                        "opacity": 1,
+                        "width": 1
+                      }
+                    },
+                    {
+                      "color": {
+                        "color": "#F3F7FA"
+                      },
+                      "font": {
+                        "size": 23,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62",
+                        "bold": false
+                      },
+                      "alignment": "left",
+                      "runs": [
+                        {
+                          "text": "2026-11",
+                          "font": {
+                            "size": 23,
+                            "family": "Noto Sans CJK SC",
+                            "color": "#243B62",
+                            "bold": false
+                          }
+                        }
+                      ],
+                      "stroke": {
+                        "color": "#D8D3C4",
+                        "opacity": 1,
+                        "width": 1
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "color": {
+                        "color": "#F3F7FA"
+                      },
+                      "font": {
+                        "size": 23,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62",
+                        "bold": false
+                      },
+                      "alignment": "left",
+                      "runs": [
+                        {
+                          "text": "远星实验",
+                          "font": {
+                            "size": 23,
+                            "family": "Noto Sans CJK SC",
+                            "color": "#243B62",
+                            "bold": false
+                          }
+                        }
+                      ],
+                      "stroke": {
+                        "color": "#D8D3C4",
+                        "opacity": 1,
+                        "width": 1
+                      }
+                    },
+                    {
+                      "color": {
+                        "color": "#F3F7FA"
+                      },
+                      "font": {
+                        "size": 23,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62",
+                        "bold": false
+                      },
+                      "alignment": "left",
+                      "runs": [
+                        {
+                          "text": "90",
+                          "font": {
+                            "size": 23,
+                            "family": "Noto Sans CJK SC",
+                            "color": "#243B62",
+                            "bold": false
+                          }
+                        }
+                      ],
+                      "stroke": {
+                        "color": "#D8D3C4",
+                        "opacity": 1,
+                        "width": 1
+                      }
+                    },
+                    {
+                      "color": {
+                        "color": "#F3F7FA"
+                      },
+                      "font": {
+                        "size": 23,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62",
+                        "bold": false
+                      },
+                      "alignment": "left",
+                      "runs": [
+                        {
+                          "text": "105",
+                          "font": {
+                            "size": 23,
+                            "family": "Noto Sans CJK SC",
+                            "color": "#243B62",
+                            "bold": false
+                          }
+                        }
+                      ],
+                      "stroke": {
+                        "color": "#D8D3C4",
+                        "opacity": 1,
+                        "width": 1
+                      }
+                    },
+                    {
+                      "color": {
+                        "color": "#F3F7FA"
+                      },
+                      "font": {
+                        "size": 23,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62",
+                        "bold": false
+                      },
+                      "alignment": "left",
+                      "runs": [
+                        {
+                          "text": "2026-12",
+                          "font": {
+                            "size": 23,
+                            "family": "Noto Sans CJK SC",
+                            "color": "#243B62",
+                            "bold": false
+                          }
+                        }
+                      ],
+                      "stroke": {
+                        "color": "#D8D3C4",
+                        "opacity": 1,
+                        "width": 1
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "color": {
+                        "color": "#F3F7FA"
+                      },
+                      "font": {
+                        "size": 23,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62",
+                        "bold": false
+                      },
+                      "alignment": "left",
+                      "runs": [
+                        {
+                          "text": "澄海验证",
+                          "font": {
+                            "size": 23,
+                            "family": "Noto Sans CJK SC",
+                            "color": "#243B62",
+                            "bold": false
+                          }
+                        }
+                      ],
+                      "stroke": {
+                        "color": "#D8D3C4",
+                        "opacity": 1,
+                        "width": 1
+                      }
+                    },
+                    {
+                      "color": {
+                        "color": "#F3F7FA"
+                      },
+                      "font": {
+                        "size": 23,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62",
+                        "bold": false
+                      },
+                      "alignment": "left",
+                      "runs": [
+                        {
+                          "text": "60",
+                          "font": {
+                            "size": 23,
+                            "family": "Noto Sans CJK SC",
+                            "color": "#243B62",
+                            "bold": false
+                          }
+                        }
+                      ],
+                      "stroke": {
+                        "color": "#D8D3C4",
+                        "opacity": 1,
+                        "width": 1
+                      }
+                    },
+                    {
+                      "color": {
+                        "color": "#F3F7FA"
+                      },
+                      "font": {
+                        "size": 23,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62",
+                        "bold": false
+                      },
+                      "alignment": "left",
+                      "runs": [
+                        {
+                          "text": "75",
+                          "font": {
+                            "size": 23,
+                            "family": "Noto Sans CJK SC",
+                            "color": "#243B62",
+                            "bold": false
+                          }
+                        }
+                      ],
+                      "stroke": {
+                        "color": "#D8D3C4",
+                        "opacity": 1,
+                        "width": 1
+                      }
+                    },
+                    {
+                      "color": {
+                        "color": "#F3F7FA"
+                      },
+                      "font": {
+                        "size": 23,
+                        "family": "Noto Sans CJK SC",
+                        "color": "#243B62",
+                        "bold": false
+                      },
+                      "alignment": "left",
+                      "runs": [
+                        {
+                          "text": "2027-01",
+                          "font": {
+                            "size": 23,
+                            "family": "Noto Sans CJK SC",
+                            "color": "#243B62",
+                            "bold": false
+                          }
+                        }
+                      ],
+                      "stroke": {
+                        "color": "#D8D3C4",
+                        "opacity": 1,
+                        "width": 1
+                      }
+                    }
+                  ]
+                ],
+                "decorative": false,
+                "name": "comparison_table",
+                "max_columns": 4,
+                "min_columns": 2,
+                "max_rows": 6,
+                "min_rows": 3
+              },
+              {
+                "type": "text",
+                "position": {
+                  "x": 0,
+                  "y": 364
+                },
+                "size": {
+                  "width": 1152,
+                  "height": 54
+                },
+                "font": {
+                  "size": 24,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#50647F",
+                  "bold": false
+                },
+                "runs": [
+                  {
+                    "text": "金额单位为万元。",
+                    "font": {
+                      "size": 24,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F"
+                    }
+                  },
+                  {
+                    "text": "三项修订预算均高于原预算",
+                    "font": {
+                      "size": 24,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F",
+                      "bold": true
+                    }
+                  },
+                  {
+                    "text": "，目标日期依次为2026年11月、2026年12月及2027年1月。",
+                    "font": {
+                      "size": 24,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F"
+                    }
+                  },
+                  {
+                    "text": "建议按最新预算与节点同步更新执行计划。",
+                    "font": {
+                      "size": 24,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F",
+                      "italic": true
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "table_takeaway",
+                "max_length": 300,
+                "min_length": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "ui": {
+        "id": "native_columns",
+        "description": "Native column chart with four categories and one series, title and short explanatory note.",
+        "components": [
+          {
+            "id": "native_columns_heading",
+            "description": "Native column chart with four categories and one series, title and short explanatory note. native_columns_heading",
+            "position": {
+              "x": 64,
+              "y": 44
+            },
+            "elements": [
+              {
+                "type": "text",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 1152,
+                  "height": 96
+                },
+                "font": {
+                  "size": 36,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#243B62",
+                  "bold": true
+                },
+                "runs": [
+                  {
+                    "text": "季度指标",
+                    "font": {
+                      "size": 36,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#243B62",
+                      "bold": true
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "headline",
+                "max_length": 300,
+                "min_length": 1
+              },
+              {
+                "type": "text",
+                "position": {
+                  "x": 0,
+                  "y": 100
+                },
+                "size": {
+                  "width": 1152,
+                  "height": 42
+                },
+                "font": {
+                  "size": 20,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#50647F",
+                  "bold": false
+                },
+                "runs": [
+                  {
+                    "text": "指标值逐季上升，",
+                    "font": {
+                      "size": 20,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F"
+                    }
+                  },
+                  {
+                    "text": "第四季度达到32",
+                    "font": {
+                      "size": 20,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F",
+                      "bold": true
+                    }
+                  },
+                  {
+                    "text": "，全年保持连续增长",
+                    "font": {
+                      "size": 20,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F"
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "subtitle",
+                "max_length": 300,
+                "min_length": 1
+              }
+            ]
+          },
+          {
+            "id": "native_columns_content",
+            "description": "Native column chart with four categories and one series, title and short explanatory note. native_columns_content",
+            "position": {
+              "x": 64,
+              "y": 220
+            },
+            "elements": [
+              {
+                "type": "chart",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 870,
+                  "height": 415
+                },
+                "chart_type": "bar",
+                "text_color": "#243B62",
+                "colors": [
+                  "#16A6A1",
+                  "#4C86C6",
+                  "#7B69BB",
+                  "#E7A24C"
+                ],
+                "x_axis": true,
+                "y_axis": true,
+                "y_axis_title": "测试值",
+                "axis_color": "#CAD4E0",
+                "categories": [
+                  "第一季度",
+                  "第二季度",
+                  "第三季度",
+                  "第四季度"
+                ],
+                "series": [
+                  {
+                    "name": "指标值",
+                    "values": [
+                      12,
+                      18,
+                      25,
+                      32
+                    ]
+                  }
+                ],
+                "data_labels": "top",
+                "legend": false,
+                "legend_position": "bottom",
+                "x_axis_grid": false,
+                "y_axis_grid": true,
+                "grid_color": "#E4EAF1",
+                "decorative": false,
+                "name": "column_chart"
+              },
+              {
+                "type": "text",
+                "position": {
+                  "x": 920,
+                  "y": 28
+                },
+                "size": {
+                  "width": 230,
+                  "height": 280
+                },
+                "font": {
+                  "size": 25,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#50647F",
+                  "bold": false
+                },
+                "runs": [
+                  {
+                    "text": "指标值从第一季度的12逐季上升至第四季度的32，四个季度均保持增长，其中第二季度较第一季度增加6，为季度间增幅最大的一次。",
+                    "font": {
+                      "size": 25,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F",
+                      "bold": false
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "chart_takeaway",
+                "max_length": 300,
+                "min_length": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "ui": {
+        "id": "native_lines",
+        "description": "Native line chart with five categories and two series, title and short explanatory note.",
+        "components": [
+          {
+            "id": "native_lines_heading",
+            "description": "Native line chart with five categories and two series, title and short explanatory note. native_lines_heading",
+            "position": {
+              "x": 64,
+              "y": 44
+            },
+            "elements": [
+              {
+                "type": "text",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 1152,
+                  "height": 96
+                },
+                "font": {
+                  "size": 36,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#243B62",
+                  "bold": true
+                },
+                "runs": [
+                  {
+                    "text": "两方案进度对比",
+                    "font": {
+                      "size": 36,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#243B62",
+                      "bold": true
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "headline",
+                "max_length": 300,
+                "min_length": 1
+              },
+              {
+                "type": "text",
+                "position": {
+                  "x": 0,
+                  "y": 100
+                },
+                "size": {
+                  "width": 1152,
+                  "height": 42
+                },
+                "font": {
+                  "size": 20,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#50647F",
+                  "bold": false
+                },
+                "runs": [
+                  {
+                    "text": "6月至10月方案甲与方案乙的月度进度走势",
+                    "font": {
+                      "size": 20,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F",
+                      "bold": false
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "subtitle",
+                "max_length": 300,
+                "min_length": 1
+              }
+            ]
+          },
+          {
+            "id": "native_lines_content",
+            "description": "Native line chart with five categories and two series, title and short explanatory note. native_lines_content",
+            "position": {
+              "x": 64,
+              "y": 220
+            },
+            "elements": [
+              {
+                "type": "chart",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 870,
+                  "height": 415
+                },
+                "chart_type": "line",
+                "text_color": "#243B62",
+                "colors": [
+                  "#16A6A1",
+                  "#E7A24C"
+                ],
+                "x_axis": true,
+                "y_axis": true,
+                "y_axis_title": "测试值",
+                "axis_color": "#CAD4E0",
+                "categories": [
+                  "6月",
+                  "7月",
+                  "8月",
+                  "9月",
+                  "10月"
+                ],
+                "series": [
+                  {
+                    "name": "方案甲",
+                    "values": [
+                      52,
+                      58,
+                      64,
+                      71,
+                      80
+                    ]
+                  },
+                  {
+                    "name": "方案乙",
+                    "values": [
+                      48,
+                      55,
+                      68,
+                      75,
+                      84
+                    ]
+                  }
+                ],
+                "legend": true,
+                "legend_position": "bottom",
+                "x_axis_grid": false,
+                "y_axis_grid": true,
+                "grid_color": "#E4EAF1",
+                "decorative": false,
+                "name": "line_chart"
+              },
+              {
+                "type": "text",
+                "position": {
+                  "x": 920,
+                  "y": 28
+                },
+                "size": {
+                  "width": 230,
+                  "height": 340
+                },
+                "font": {
+                  "size": 25,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#50647F",
+                  "bold": false
+                },
+                "runs": [
+                  {
+                    "text": "方案甲在6月与7月领先，方案乙自8月起反超，并在9月与10月继续保持领先。",
+                    "font": {
+                      "size": 25,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F",
+                      "bold": false
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "chart_takeaway",
+                "max_length": 300,
+                "min_length": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "ui": {
+        "id": "native_donut",
+        "description": "Native doughnut chart with three categories, short title and takeaway. Use shares that add to 100 when the input is a percentage breakdown.",
+        "components": [
+          {
+            "id": "native_donut_heading",
+            "description": "Native doughnut chart with three categories, short title and takeaway. Use shares that add to 100 when the input is a percentage breakdown. native_donut_heading",
+            "position": {
+              "x": 64,
+              "y": 44
+            },
+            "elements": [
+              {
+                "type": "text",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 1152,
+                  "height": 96
+                },
+                "font": {
+                  "size": 36,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#243B62",
+                  "bold": true
+                },
+                "runs": [
+                  {
+                    "text": "资源构成以研发为主导",
+                    "font": {
+                      "size": 36,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#243B62",
+                      "bold": true
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "headline",
+                "max_length": 300,
+                "min_length": 1
+              },
+              {
+                "type": "text",
+                "position": {
+                  "x": 0,
+                  "y": 100
+                },
+                "size": {
+                  "width": 1152,
+                  "height": 42
+                },
+                "font": {
+                  "size": 20,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#50647F",
+                  "bold": false
+                },
+                "runs": [
+                  {
+                    "text": "研发、验证、交付三类资源的投入占比分布",
+                    "font": {
+                      "size": 20,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F",
+                      "bold": false
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "subtitle",
+                "max_length": 300,
+                "min_length": 1
+              }
+            ]
+          },
+          {
+            "id": "native_donut_content",
+            "description": "Native doughnut chart with three categories, short title and takeaway. Use shares that add to 100 when the input is a percentage breakdown. native_donut_content",
+            "position": {
+              "x": 64,
+              "y": 220
+            },
+            "elements": [
+              {
+                "type": "chart",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 870,
+                  "height": 415
+                },
+                "chart_type": "donut",
+                "text_color": "#243B62",
+                "colors": [
+                  "#16A6A1",
+                  "#4C86C6",
+                  "#E7A24C"
+                ],
+                "x_axis": true,
+                "y_axis": true,
+                "axis_color": "#CAD4E0",
+                "categories": [
+                  "研发",
+                  "验证",
+                  "交付"
+                ],
+                "series": [
+                  {
+                    "name": "占比",
+                    "values": [
+                      50,
+                      30,
+                      20
+                    ]
+                  }
+                ],
+                "data_labels": "outside",
+                "legend": true,
+                "legend_position": "bottom",
+                "x_axis_grid": false,
+                "y_axis_grid": true,
+                "grid_color": "#E4EAF1",
+                "decorative": false,
+                "name": "doughnut_chart"
+              },
+              {
+                "type": "text",
+                "position": {
+                  "x": 920,
+                  "y": 28
+                },
+                "size": {
+                  "width": 230,
+                  "height": 335
+                },
+                "font": {
+                  "size": 25,
+                  "family": "Noto Sans CJK SC",
+                  "color": "#50647F",
+                  "bold": false
+                },
+                "runs": [
+                  {
+                    "text": "研发占比",
+                    "font": {
+                      "size": 25,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F"
+                    }
+                  },
+                  {
+                    "text": "50%",
+                    "font": {
+                      "size": 25,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F",
+                      "bold": true
+                    }
+                  },
+                  {
+                    "text": "，为三类资源中最高；验证占",
+                    "font": {
+                      "size": 25,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F"
+                    }
+                  },
+                  {
+                    "text": "30%",
+                    "font": {
+                      "size": 25,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F",
+                      "bold": true
+                    }
+                  },
+                  {
+                    "text": "，交付占",
+                    "font": {
+                      "size": 25,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F"
+                    }
+                  },
+                  {
+                    "text": "20%",
+                    "font": {
+                      "size": 25,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F",
+                      "bold": true
+                    }
+                  },
+                  {
+                    "text": "，三项合计100%，覆盖全部资源投入。",
+                    "font": {
+                      "size": 25,
+                      "family": "Noto Sans CJK SC",
+                      "color": "#50647F"
+                    }
+                  }
+                ],
+                "decorative": false,
+                "name": "chart_takeaway",
+                "max_length": 300,
+                "min_length": 1
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

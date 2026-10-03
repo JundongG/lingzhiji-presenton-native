@@ -1,0 +1,6 @@
+# Versions used by the pinned upstream backend and the offline validation.
+python-pptx==1.0.2
+XlsxWriter==3.2.9
+lxml==6.1.1
+Pillow==12.2.0
+typing_extensions==4.15.0

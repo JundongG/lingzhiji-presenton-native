@@ -1,0 +1,2281 @@
+{
+  "id": "native_editable",
+  "name": "Native Editable（原生可编辑）",
+  "description": "Unofficial add-on template: five fixed Standard layouts for native text, table and column/line/doughnut PPTX export. Use concise content and supplied data. No image placeholders or unsupported decorative effects. Real-model edits still need review.",
+  "thumbnail": "static/thumbnail.png",
+  "icon_type": "regular",
+  "fonts": {},
+  "theme": {
+    "colors": {
+      "primary": "#159F9F",
+      "background": "#FFFFFF",
+      "card": "#F2F7FA",
+      "stroke": "#D5DFE8",
+      "primary_text": "#243B62",
+      "background_text": "#243B62",
+      "graph_0": "#159F9F",
+      "graph_1": "#4B86C5",
+      "graph_2": "#F0A33D"
+    },
+    "fonts": {
+      "textFont": {
+        "name": "Noto Sans CJK SC"
+      }
+    }
+  },
+  "layouts": [
+    {
+      "id": "native_cover",
+      "description": "Cover with a concise summary, up to five short key points and a readable circular callout. Geometry and capacity profile v2; native-only elements.",
+      "background": "#FFFFFF",
+      "components": [
+        {
+          "id": "native_cover_heading",
+          "description": "Cover with a concise summary, up to five short key points and a readable circular callout. Geometry and capacity profile v2; native-only elements. native_cover_heading",
+          "position": {
+            "x": 64,
+            "y": 44
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "headline",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 96
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 36,
+                "color": "#243B62",
+                "bold": true,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "项目复盘与下一步计划"
+                }
+              ],
+              "max_length": 56,
+              "min_length": 1
+            },
+            {
+              "type": "text",
+              "name": "subtitle",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 100
+              },
+              "size": {
+                "width": 1152,
+                "height": 42
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 20,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "主题简介与关键结论"
+                }
+              ],
+              "max_length": 48,
+              "min_length": 1
+            }
+          ]
+        },
+        {
+          "id": "native_cover_content",
+          "description": "Cover with a concise summary, up to five short key points and a readable circular callout. Geometry and capacity profile v2; native-only elements. native_cover_content",
+          "position": {
+            "x": 64,
+            "y": 220
+          },
+          "elements": [
+            {
+              "type": "container",
+              "name": "decorative_shape",
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 740,
+                "height": 430
+              },
+              "fill": {
+                "color": "#F3F7FA"
+              },
+              "border_radius": {
+                "tl": 16,
+                "tr": 16,
+                "bl": 16,
+                "br": 16
+              }
+            },
+            {
+              "type": "text",
+              "name": "summary",
+              "decorative": false,
+              "position": {
+                "x": 28,
+                "y": 26
+              },
+              "size": {
+                "width": 684,
+                "height": 128
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 24,
+                "color": "#243B62",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "用简短段落概括主题、当前情况和下一步安排。"
+                }
+              ],
+              "max_length": 100,
+              "min_length": 1
+            },
+            {
+              "type": "text-list",
+              "name": "key_points",
+              "decorative": false,
+              "position": {
+                "x": 28,
+                "y": 178
+              },
+              "size": {
+                "width": 684,
+                "height": 232
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 22,
+                "color": "#243B62",
+                "line_height": 1.15
+              },
+              "marker": "bullet",
+              "gap": 8,
+              "marker_gap": 10,
+              "items": [
+                [
+                  {
+                    "text": "第一项关键结论"
+                  }
+                ],
+                [
+                  {
+                    "text": "第二项关键结论"
+                  }
+                ],
+                [
+                  {
+                    "text": "下一步行动"
+                  }
+                ]
+              ],
+              "max_items": 5,
+              "min_items": 1,
+              "max_item_length": 28,
+              "min_item_length": 1
+            },
+            {
+              "type": "vector",
+              "name": "decorative_shape",
+              "shape": "ellipse",
+              "points": [
+                {
+                  "x": 790,
+                  "y": 42
+                },
+                {
+                  "x": 1130,
+                  "y": 382
+                }
+              ],
+              "fill": {
+                "color": "#16A6A1"
+              },
+              "closed": true
+            },
+            {
+              "type": "text",
+              "name": "callout",
+              "decorative": false,
+              "position": {
+                "x": 820,
+                "y": 122
+              },
+              "size": {
+                "width": 280,
+                "height": 180
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 26,
+                "color": "#FFFFFF",
+                "bold": true,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "核心\n结论"
+                }
+              ],
+              "max_length": 45,
+              "min_length": 1,
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            }
+          ]
+        }
+      ],
+      "native_layout_version": 2
+    },
+    {
+      "id": "native_table",
+      "description": "Native editable table with 4 columns and 3 body rows. Keep cell text concise.",
+      "background": "#FFFFFF",
+      "components": [
+        {
+          "id": "native_table_heading",
+          "description": "Native editable table with 4 columns and 3 body rows. Keep cell text concise. native_table_heading",
+          "position": {
+            "x": 64,
+            "y": 44
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "headline",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 96
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 36,
+                "color": "#243B62",
+                "bold": true,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "关键事项对比表"
+                }
+              ],
+              "max_length": 56,
+              "min_length": 1
+            },
+            {
+              "type": "text",
+              "name": "subtitle",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 100
+              },
+              "size": {
+                "width": 1152,
+                "height": 42
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 20,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "项目、基准、新值与日期"
+                }
+              ],
+              "max_length": 48,
+              "min_length": 1
+            }
+          ]
+        },
+        {
+          "id": "native_table_content",
+          "description": "Native editable table with 4 columns and 3 body rows. Keep cell text concise. native_table_content",
+          "position": {
+            "x": 64,
+            "y": 220
+          },
+          "elements": [
+            {
+              "type": "table",
+              "name": "comparison_table",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 340
+              },
+              "columns": [
+                {
+                  "runs": [
+                    {
+                      "text": "项目"
+                    }
+                  ],
+                  "font": {
+                    "family": "Noto Sans CJK SC",
+                    "size": 23,
+                    "color": "#FFFFFF",
+                    "bold": true
+                  },
+                  "color": {
+                    "color": "#243B62"
+                  },
+                  "alignment": "left"
+                },
+                {
+                  "runs": [
+                    {
+                      "text": "原预算"
+                    }
+                  ],
+                  "font": {
+                    "family": "Noto Sans CJK SC",
+                    "size": 23,
+                    "color": "#FFFFFF",
+                    "bold": true
+                  },
+                  "color": {
+                    "color": "#243B62"
+                  },
+                  "alignment": "left"
+                },
+                {
+                  "runs": [
+                    {
+                      "text": "修订预算"
+                    }
+                  ],
+                  "font": {
+                    "family": "Noto Sans CJK SC",
+                    "size": 23,
+                    "color": "#FFFFFF",
+                    "bold": true
+                  },
+                  "color": {
+                    "color": "#243B62"
+                  },
+                  "alignment": "left"
+                },
+                {
+                  "runs": [
+                    {
+                      "text": "目标日期"
+                    }
+                  ],
+                  "font": {
+                    "family": "Noto Sans CJK SC",
+                    "size": 23,
+                    "color": "#FFFFFF",
+                    "bold": true
+                  },
+                  "color": {
+                    "color": "#243B62"
+                  },
+                  "alignment": "left"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "runs": [
+                      {
+                        "text": "青岚研究"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "120"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "150"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "2026-11"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  }
+                ],
+                [
+                  {
+                    "runs": [
+                      {
+                        "text": "远星实验"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "90"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "105"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "2026-12"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  }
+                ],
+                [
+                  {
+                    "runs": [
+                      {
+                        "text": "澄海验证"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "60"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "75"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "2027-01"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  }
+                ]
+              ],
+              "max_columns": 4,
+              "min_columns": 2,
+              "max_rows": 6,
+              "min_rows": 3
+            },
+            {
+              "type": "text",
+              "name": "table_takeaway",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 350
+              },
+              "size": {
+                "width": 1152,
+                "height": 84
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 22,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "用一句话解释表格中的主要变化与口径。"
+                }
+              ],
+              "max_length": 90,
+              "min_length": 1
+            }
+          ]
+        }
+      ],
+      "native_layout_version": 2
+    },
+    {
+      "id": "native_columns",
+      "description": "Native column chart with four categories and one series, title and short explanatory note.",
+      "background": "#FFFFFF",
+      "components": [
+        {
+          "id": "native_columns_heading",
+          "description": "Native column chart with four categories and one series, title and short explanatory note. native_columns_heading",
+          "position": {
+            "x": 64,
+            "y": 44
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "headline",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 96
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 36,
+                "color": "#243B62",
+                "bold": true,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "阶段交付：数值对比"
+                }
+              ],
+              "max_length": 56,
+              "min_length": 1
+            },
+            {
+              "type": "text",
+              "name": "subtitle",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 100
+              },
+              "size": {
+                "width": 1152,
+                "height": 42
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 20,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "四个阶段的数量对比"
+                }
+              ],
+              "max_length": 48,
+              "min_length": 1
+            }
+          ]
+        },
+        {
+          "id": "native_columns_content",
+          "description": "Native column chart with four categories and one series, title and short explanatory note. native_columns_content",
+          "position": {
+            "x": 64,
+            "y": 220
+          },
+          "elements": [
+            {
+              "type": "chart",
+              "name": "column_chart",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 870,
+                "height": 415
+              },
+              "chart_type": "bar",
+              "title": null,
+              "categories": [
+                "第一季度",
+                "第二季度",
+                "第三季度",
+                "第四季度"
+              ],
+              "series": [
+                {
+                  "name": "完成项目",
+                  "values": [
+                    12,
+                    18,
+                    25,
+                    32
+                  ]
+                }
+              ],
+              "colors": [
+                "#16A6A1",
+                "#4C86C6",
+                "#7B69BB",
+                "#E7A24C"
+              ],
+              "legend": false,
+              "legend_position": "bottom",
+              "x_axis": true,
+              "y_axis": true,
+              "x_axis_grid": false,
+              "y_axis_grid": true,
+              "x_axis_title": null,
+              "y_axis_title": "测试值",
+              "data_labels": "top",
+              "text_color": "#243B62",
+              "axis_color": "#CAD4E0",
+              "grid_color": "#E4EAF1"
+            },
+            {
+              "type": "text",
+              "name": "chart_takeaway",
+              "decorative": false,
+              "position": {
+                "x": 920,
+                "y": 28
+              },
+              "size": {
+                "width": 230,
+                "height": 280
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 25,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "用简短说明解释图表中的主要变化。"
+                }
+              ],
+              "max_length": 72,
+              "min_length": 1
+            }
+          ]
+        }
+      ],
+      "native_layout_version": 2
+    },
+    {
+      "id": "native_lines",
+      "description": "Native line chart with five categories and two series, title and short explanatory note.",
+      "background": "#FFFFFF",
+      "components": [
+        {
+          "id": "native_lines_heading",
+          "description": "Native line chart with five categories and two series, title and short explanatory note. native_lines_heading",
+          "position": {
+            "x": 64,
+            "y": 44
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "headline",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 96
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 36,
+                "color": "#243B62",
+                "bold": true,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "进展趋势：双序列对比"
+                }
+              ],
+              "max_length": 56,
+              "min_length": 1
+            },
+            {
+              "type": "text",
+              "name": "subtitle",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 100
+              },
+              "size": {
+                "width": 1152,
+                "height": 42
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 20,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "两组指标的阶段走势"
+                }
+              ],
+              "max_length": 48,
+              "min_length": 1
+            }
+          ]
+        },
+        {
+          "id": "native_lines_content",
+          "description": "Native line chart with five categories and two series, title and short explanatory note. native_lines_content",
+          "position": {
+            "x": 64,
+            "y": 220
+          },
+          "elements": [
+            {
+              "type": "chart",
+              "name": "line_chart",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 870,
+                "height": 415
+              },
+              "chart_type": "line",
+              "title": null,
+              "categories": [
+                "六月",
+                "七月",
+                "八月",
+                "九月",
+                "十月"
+              ],
+              "series": [
+                {
+                  "name": "方案甲",
+                  "values": [
+                    52,
+                    58,
+                    64,
+                    71,
+                    80
+                  ]
+                },
+                {
+                  "name": "方案乙",
+                  "values": [
+                    48,
+                    55,
+                    68,
+                    75,
+                    84
+                  ]
+                }
+              ],
+              "colors": [
+                "#16A6A1",
+                "#E7A24C"
+              ],
+              "legend": true,
+              "legend_position": "bottom",
+              "x_axis": true,
+              "y_axis": true,
+              "x_axis_grid": false,
+              "y_axis_grid": true,
+              "x_axis_title": null,
+              "y_axis_title": "测试值",
+              "data_labels": null,
+              "text_color": "#243B62",
+              "axis_color": "#CAD4E0",
+              "grid_color": "#E4EAF1"
+            },
+            {
+              "type": "text",
+              "name": "chart_takeaway",
+              "decorative": false,
+              "position": {
+                "x": 920,
+                "y": 28
+              },
+              "size": {
+                "width": 230,
+                "height": 340
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 25,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "用简短说明解释图表中的主要变化。"
+                }
+              ],
+              "max_length": 80,
+              "min_length": 1
+            }
+          ]
+        }
+      ],
+      "native_layout_version": 2
+    },
+    {
+      "id": "native_donut",
+      "description": "Native doughnut chart with three categories, short title and takeaway. Use shares that add to 100 when the input is a percentage breakdown.",
+      "background": "#FFFFFF",
+      "components": [
+        {
+          "id": "native_donut_heading",
+          "description": "Native doughnut chart with three categories, short title and takeaway. Use shares that add to 100 when the input is a percentage breakdown. native_donut_heading",
+          "position": {
+            "x": 64,
+            "y": 44
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "headline",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 96
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 36,
+                "color": "#243B62",
+                "bold": true,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "资源分配与后续行动"
+                }
+              ],
+              "max_length": 56,
+              "min_length": 1
+            },
+            {
+              "type": "text",
+              "name": "subtitle",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 100
+              },
+              "size": {
+                "width": 1152,
+                "height": 42
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 20,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "资源占比，合计百分之百"
+                }
+              ],
+              "max_length": 48,
+              "min_length": 1
+            }
+          ]
+        },
+        {
+          "id": "native_donut_content",
+          "description": "Native doughnut chart with three categories, short title and takeaway. Use shares that add to 100 when the input is a percentage breakdown. native_donut_content",
+          "position": {
+            "x": 64,
+            "y": 220
+          },
+          "elements": [
+            {
+              "type": "chart",
+              "name": "doughnut_chart",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 870,
+                "height": 415
+              },
+              "chart_type": "donut",
+              "title": null,
+              "categories": [
+                "研发",
+                "验证",
+                "交付"
+              ],
+              "series": [
+                {
+                  "name": "资源占比",
+                  "values": [
+                    50,
+                    30,
+                    20
+                  ]
+                }
+              ],
+              "colors": [
+                "#16A6A1",
+                "#4C86C6",
+                "#E7A24C"
+              ],
+              "legend": true,
+              "legend_position": "bottom",
+              "x_axis": true,
+              "y_axis": true,
+              "x_axis_grid": false,
+              "y_axis_grid": true,
+              "x_axis_title": null,
+              "y_axis_title": null,
+              "data_labels": "outside",
+              "text_color": "#243B62",
+              "axis_color": "#CAD4E0",
+              "grid_color": "#E4EAF1"
+            },
+            {
+              "type": "text",
+              "name": "chart_takeaway",
+              "decorative": false,
+              "position": {
+                "x": 920,
+                "y": 28
+              },
+              "size": {
+                "width": 230,
+                "height": 335
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 25,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "用简短说明解释图表中的主要变化。"
+                }
+              ],
+              "max_length": 80,
+              "min_length": 1
+            }
+          ]
+        }
+      ],
+      "native_layout_version": 2
+    }
+  ],
+  "merged_components": [
+    {
+      "id": "native_cover_heading",
+      "description": "Cover with a concise summary, up to five short key points and a readable circular callout. Geometry and capacity profile v2; native-only elements. native_cover_heading",
+      "variants": [
+        {
+          "id": "native_cover_heading",
+          "description": "Cover with a concise summary, up to five short key points and a readable circular callout. Geometry and capacity profile v2; native-only elements. native_cover_heading",
+          "position": {
+            "x": 64,
+            "y": 44
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "headline",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 96
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 36,
+                "color": "#243B62",
+                "bold": true,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "项目复盘与下一步计划"
+                }
+              ],
+              "max_length": 56,
+              "min_length": 1
+            },
+            {
+              "type": "text",
+              "name": "subtitle",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 100
+              },
+              "size": {
+                "width": 1152,
+                "height": 42
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 20,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "主题简介与关键结论"
+                }
+              ],
+              "max_length": 48,
+              "min_length": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native_cover_content",
+      "description": "Cover with a concise summary, up to five short key points and a readable circular callout. Geometry and capacity profile v2; native-only elements. native_cover_content",
+      "variants": [
+        {
+          "id": "native_cover_content",
+          "description": "Cover with a concise summary, up to five short key points and a readable circular callout. Geometry and capacity profile v2; native-only elements. native_cover_content",
+          "position": {
+            "x": 64,
+            "y": 220
+          },
+          "elements": [
+            {
+              "type": "container",
+              "name": "decorative_shape",
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 740,
+                "height": 430
+              },
+              "fill": {
+                "color": "#F3F7FA"
+              },
+              "border_radius": {
+                "tl": 16,
+                "tr": 16,
+                "bl": 16,
+                "br": 16
+              }
+            },
+            {
+              "type": "text",
+              "name": "summary",
+              "decorative": false,
+              "position": {
+                "x": 28,
+                "y": 26
+              },
+              "size": {
+                "width": 684,
+                "height": 128
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 24,
+                "color": "#243B62",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "用简短段落概括主题、当前情况和下一步安排。"
+                }
+              ],
+              "max_length": 100,
+              "min_length": 1
+            },
+            {
+              "type": "text-list",
+              "name": "key_points",
+              "decorative": false,
+              "position": {
+                "x": 28,
+                "y": 178
+              },
+              "size": {
+                "width": 684,
+                "height": 232
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 22,
+                "color": "#243B62",
+                "line_height": 1.15
+              },
+              "marker": "bullet",
+              "gap": 8,
+              "marker_gap": 10,
+              "items": [
+                [
+                  {
+                    "text": "第一项关键结论"
+                  }
+                ],
+                [
+                  {
+                    "text": "第二项关键结论"
+                  }
+                ],
+                [
+                  {
+                    "text": "下一步行动"
+                  }
+                ]
+              ],
+              "max_items": 5,
+              "min_items": 1,
+              "max_item_length": 28,
+              "min_item_length": 1
+            },
+            {
+              "type": "vector",
+              "name": "decorative_shape",
+              "shape": "ellipse",
+              "points": [
+                {
+                  "x": 790,
+                  "y": 42
+                },
+                {
+                  "x": 1130,
+                  "y": 382
+                }
+              ],
+              "fill": {
+                "color": "#16A6A1"
+              },
+              "closed": true
+            },
+            {
+              "type": "text",
+              "name": "callout",
+              "decorative": false,
+              "position": {
+                "x": 820,
+                "y": 122
+              },
+              "size": {
+                "width": 280,
+                "height": 180
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 26,
+                "color": "#FFFFFF",
+                "bold": true,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "核心\n结论"
+                }
+              ],
+              "max_length": 45,
+              "min_length": 1,
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native_table_heading",
+      "description": "Native editable table with 4 columns and 3 body rows. Keep cell text concise. native_table_heading",
+      "variants": [
+        {
+          "id": "native_table_heading",
+          "description": "Native editable table with 4 columns and 3 body rows. Keep cell text concise. native_table_heading",
+          "position": {
+            "x": 64,
+            "y": 44
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "headline",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 96
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 36,
+                "color": "#243B62",
+                "bold": true,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "关键事项对比表"
+                }
+              ],
+              "max_length": 56,
+              "min_length": 1
+            },
+            {
+              "type": "text",
+              "name": "subtitle",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 100
+              },
+              "size": {
+                "width": 1152,
+                "height": 42
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 20,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "项目、基准、新值与日期"
+                }
+              ],
+              "max_length": 48,
+              "min_length": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native_table_content",
+      "description": "Native editable table with 4 columns and 3 body rows. Keep cell text concise. native_table_content",
+      "variants": [
+        {
+          "id": "native_table_content",
+          "description": "Native editable table with 4 columns and 3 body rows. Keep cell text concise. native_table_content",
+          "position": {
+            "x": 64,
+            "y": 220
+          },
+          "elements": [
+            {
+              "type": "table",
+              "name": "comparison_table",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 340
+              },
+              "columns": [
+                {
+                  "runs": [
+                    {
+                      "text": "项目"
+                    }
+                  ],
+                  "font": {
+                    "family": "Noto Sans CJK SC",
+                    "size": 23,
+                    "color": "#FFFFFF",
+                    "bold": true
+                  },
+                  "color": {
+                    "color": "#243B62"
+                  },
+                  "alignment": "left"
+                },
+                {
+                  "runs": [
+                    {
+                      "text": "原预算"
+                    }
+                  ],
+                  "font": {
+                    "family": "Noto Sans CJK SC",
+                    "size": 23,
+                    "color": "#FFFFFF",
+                    "bold": true
+                  },
+                  "color": {
+                    "color": "#243B62"
+                  },
+                  "alignment": "left"
+                },
+                {
+                  "runs": [
+                    {
+                      "text": "修订预算"
+                    }
+                  ],
+                  "font": {
+                    "family": "Noto Sans CJK SC",
+                    "size": 23,
+                    "color": "#FFFFFF",
+                    "bold": true
+                  },
+                  "color": {
+                    "color": "#243B62"
+                  },
+                  "alignment": "left"
+                },
+                {
+                  "runs": [
+                    {
+                      "text": "目标日期"
+                    }
+                  ],
+                  "font": {
+                    "family": "Noto Sans CJK SC",
+                    "size": 23,
+                    "color": "#FFFFFF",
+                    "bold": true
+                  },
+                  "color": {
+                    "color": "#243B62"
+                  },
+                  "alignment": "left"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "runs": [
+                      {
+                        "text": "青岚研究"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "120"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "150"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "2026-11"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  }
+                ],
+                [
+                  {
+                    "runs": [
+                      {
+                        "text": "远星实验"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "90"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "105"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "2026-12"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  }
+                ],
+                [
+                  {
+                    "runs": [
+                      {
+                        "text": "澄海验证"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "60"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "75"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "2027-01"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  }
+                ]
+              ],
+              "max_columns": 4,
+              "min_columns": 2,
+              "max_rows": 6,
+              "min_rows": 3
+            },
+            {
+              "type": "text",
+              "name": "table_takeaway",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 350
+              },
+              "size": {
+                "width": 1152,
+                "height": 84
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 22,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "用一句话解释表格中的主要变化与口径。"
+                }
+              ],
+              "max_length": 90,
+              "min_length": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native_columns_heading",
+      "description": "Native column chart with four categories and one series, title and short explanatory note. native_columns_heading",
+      "variants": [
+        {
+          "id": "native_columns_heading",
+          "description": "Native column chart with four categories and one series, title and short explanatory note. native_columns_heading",
+          "position": {
+            "x": 64,
+            "y": 44
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "headline",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 96
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 36,
+                "color": "#243B62",
+                "bold": true,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "阶段交付：数值对比"
+                }
+              ],
+              "max_length": 56,
+              "min_length": 1
+            },
+            {
+              "type": "text",
+              "name": "subtitle",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 100
+              },
+              "size": {
+                "width": 1152,
+                "height": 42
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 20,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "四个阶段的数量对比"
+                }
+              ],
+              "max_length": 48,
+              "min_length": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native_columns_content",
+      "description": "Native column chart with four categories and one series, title and short explanatory note. native_columns_content",
+      "variants": [
+        {
+          "id": "native_columns_content",
+          "description": "Native column chart with four categories and one series, title and short explanatory note. native_columns_content",
+          "position": {
+            "x": 64,
+            "y": 220
+          },
+          "elements": [
+            {
+              "type": "chart",
+              "name": "column_chart",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 870,
+                "height": 415
+              },
+              "chart_type": "bar",
+              "title": null,
+              "categories": [
+                "第一季度",
+                "第二季度",
+                "第三季度",
+                "第四季度"
+              ],
+              "series": [
+                {
+                  "name": "完成项目",
+                  "values": [
+                    12,
+                    18,
+                    25,
+                    32
+                  ]
+                }
+              ],
+              "colors": [
+                "#16A6A1",
+                "#4C86C6",
+                "#7B69BB",
+                "#E7A24C"
+              ],
+              "legend": false,
+              "legend_position": "bottom",
+              "x_axis": true,
+              "y_axis": true,
+              "x_axis_grid": false,
+              "y_axis_grid": true,
+              "x_axis_title": null,
+              "y_axis_title": "测试值",
+              "data_labels": "top",
+              "text_color": "#243B62",
+              "axis_color": "#CAD4E0",
+              "grid_color": "#E4EAF1"
+            },
+            {
+              "type": "text",
+              "name": "chart_takeaway",
+              "decorative": false,
+              "position": {
+                "x": 920,
+                "y": 28
+              },
+              "size": {
+                "width": 230,
+                "height": 280
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 25,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "用简短说明解释图表中的主要变化。"
+                }
+              ],
+              "max_length": 72,
+              "min_length": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native_lines_heading",
+      "description": "Native line chart with five categories and two series, title and short explanatory note. native_lines_heading",
+      "variants": [
+        {
+          "id": "native_lines_heading",
+          "description": "Native line chart with five categories and two series, title and short explanatory note. native_lines_heading",
+          "position": {
+            "x": 64,
+            "y": 44
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "headline",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 96
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 36,
+                "color": "#243B62",
+                "bold": true,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "进展趋势：双序列对比"
+                }
+              ],
+              "max_length": 56,
+              "min_length": 1
+            },
+            {
+              "type": "text",
+              "name": "subtitle",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 100
+              },
+              "size": {
+                "width": 1152,
+                "height": 42
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 20,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "两组指标的阶段走势"
+                }
+              ],
+              "max_length": 48,
+              "min_length": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native_lines_content",
+      "description": "Native line chart with five categories and two series, title and short explanatory note. native_lines_content",
+      "variants": [
+        {
+          "id": "native_lines_content",
+          "description": "Native line chart with five categories and two series, title and short explanatory note. native_lines_content",
+          "position": {
+            "x": 64,
+            "y": 220
+          },
+          "elements": [
+            {
+              "type": "chart",
+              "name": "line_chart",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 870,
+                "height": 415
+              },
+              "chart_type": "line",
+              "title": null,
+              "categories": [
+                "六月",
+                "七月",
+                "八月",
+                "九月",
+                "十月"
+              ],
+              "series": [
+                {
+                  "name": "方案甲",
+                  "values": [
+                    52,
+                    58,
+                    64,
+                    71,
+                    80
+                  ]
+                },
+                {
+                  "name": "方案乙",
+                  "values": [
+                    48,
+                    55,
+                    68,
+                    75,
+                    84
+                  ]
+                }
+              ],
+              "colors": [
+                "#16A6A1",
+                "#E7A24C"
+              ],
+              "legend": true,
+              "legend_position": "bottom",
+              "x_axis": true,
+              "y_axis": true,
+              "x_axis_grid": false,
+              "y_axis_grid": true,
+              "x_axis_title": null,
+              "y_axis_title": "测试值",
+              "data_labels": null,
+              "text_color": "#243B62",
+              "axis_color": "#CAD4E0",
+              "grid_color": "#E4EAF1"
+            },
+            {
+              "type": "text",
+              "name": "chart_takeaway",
+              "decorative": false,
+              "position": {
+                "x": 920,
+                "y": 28
+              },
+              "size": {
+                "width": 230,
+                "height": 340
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 25,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "用简短说明解释图表中的主要变化。"
+                }
+              ],
+              "max_length": 80,
+              "min_length": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native_donut_heading",
+      "description": "Native doughnut chart with three categories, short title and takeaway. Use shares that add to 100 when the input is a percentage breakdown. native_donut_heading",
+      "variants": [
+        {
+          "id": "native_donut_heading",
+          "description": "Native doughnut chart with three categories, short title and takeaway. Use shares that add to 100 when the input is a percentage breakdown. native_donut_heading",
+          "position": {
+            "x": 64,
+            "y": 44
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "headline",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 96
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 36,
+                "color": "#243B62",
+                "bold": true,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "资源分配与后续行动"
+                }
+              ],
+              "max_length": 56,
+              "min_length": 1
+            },
+            {
+              "type": "text",
+              "name": "subtitle",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 100
+              },
+              "size": {
+                "width": 1152,
+                "height": 42
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 20,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "资源占比，合计百分之百"
+                }
+              ],
+              "max_length": 48,
+              "min_length": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native_donut_content",
+      "description": "Native doughnut chart with three categories, short title and takeaway. Use shares that add to 100 when the input is a percentage breakdown. native_donut_content",
+      "variants": [
+        {
+          "id": "native_donut_content",
+          "description": "Native doughnut chart with three categories, short title and takeaway. Use shares that add to 100 when the input is a percentage breakdown. native_donut_content",
+          "position": {
+            "x": 64,
+            "y": 220
+          },
+          "elements": [
+            {
+              "type": "chart",
+              "name": "doughnut_chart",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 870,
+                "height": 415
+              },
+              "chart_type": "donut",
+              "title": null,
+              "categories": [
+                "研发",
+                "验证",
+                "交付"
+              ],
+              "series": [
+                {
+                  "name": "资源占比",
+                  "values": [
+                    50,
+                    30,
+                    20
+                  ]
+                }
+              ],
+              "colors": [
+                "#16A6A1",
+                "#4C86C6",
+                "#E7A24C"
+              ],
+              "legend": true,
+              "legend_position": "bottom",
+              "x_axis": true,
+              "y_axis": true,
+              "x_axis_grid": false,
+              "y_axis_grid": true,
+              "x_axis_title": null,
+              "y_axis_title": null,
+              "data_labels": "outside",
+              "text_color": "#243B62",
+              "axis_color": "#CAD4E0",
+              "grid_color": "#E4EAF1"
+            },
+            {
+              "type": "text",
+              "name": "chart_takeaway",
+              "decorative": false,
+              "position": {
+                "x": 920,
+                "y": 28
+              },
+              "size": {
+                "width": 230,
+                "height": 335
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 25,
+                "color": "#50647F",
+                "bold": false,
+                "line_height": 1.15
+              },
+              "runs": [
+                {
+                  "text": "用简短说明解释图表中的主要变化。"
+                }
+              ],
+              "max_length": 80,
+              "min_length": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "native_layout_version": 2
+}

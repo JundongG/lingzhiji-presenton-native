@@ -1,0 +1,400 @@
+{
+  "version": 2,
+  "template_id": "native_editable",
+  "description": "Explicit-only Native Editable geometry/capacity upgrade. Preserve text/data and non-layout styling.",
+  "layouts": {
+    "native_cover": {
+      "components": [
+        {
+          "id": "native_cover_heading",
+          "elements": [
+            {
+              "match": {
+                "type": "text",
+                "name": "headline"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 56,
+                "font": {
+                  "line_height": 1.15
+                }
+              }
+            },
+            {
+              "match": {
+                "type": "text",
+                "name": "subtitle"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 48,
+                "font": {
+                  "line_height": 1.15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "native_cover_content",
+          "elements": [
+            {
+              "match": {
+                "type": "container"
+              },
+              "patch": {
+                "size": {
+                  "width": 740,
+                  "height": 430
+                }
+              }
+            },
+            {
+              "match": {
+                "type": "text",
+                "name": "summary"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 100,
+                "position": {
+                  "x": 28,
+                  "y": 26
+                },
+                "size": {
+                  "width": 684,
+                  "height": 128
+                },
+                "font": {
+                  "size": 24,
+                  "line_height": 1.15
+                }
+              }
+            },
+            {
+              "match": {
+                "type": "text-list",
+                "name": "key_points"
+              },
+              "patch": {
+                "position": {
+                  "x": 28,
+                  "y": 178
+                },
+                "size": {
+                  "width": 684,
+                  "height": 232
+                },
+                "font": {
+                  "size": 22,
+                  "line_height": 1.15
+                },
+                "gap": 8,
+                "marker_gap": 10,
+                "min_items": 1,
+                "max_items": 5,
+                "min_item_length": 1,
+                "max_item_length": 28
+              }
+            },
+            {
+              "match": {
+                "type": "vector",
+                "name": "decorative_shape",
+                "shape": "ellipse"
+              },
+              "patch": {
+                "points": [
+                  {
+                    "x": 790,
+                    "y": 42
+                  },
+                  {
+                    "x": 1130,
+                    "y": 382
+                  }
+                ]
+              }
+            },
+            {
+              "match": {
+                "type": "text",
+                "name": "callout"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 45,
+                "position": {
+                  "x": 820,
+                  "y": 122
+                },
+                "size": {
+                  "width": 280,
+                  "height": 180
+                },
+                "font": {
+                  "size": 26,
+                  "line_height": 1.15
+                },
+                "alignment": {
+                  "horizontal": "center",
+                  "vertical": "middle"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "native_table": {
+      "components": [
+        {
+          "id": "native_table_heading",
+          "elements": [
+            {
+              "match": {
+                "type": "text",
+                "name": "headline"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 56,
+                "font": {
+                  "line_height": 1.15
+                }
+              }
+            },
+            {
+              "match": {
+                "type": "text",
+                "name": "subtitle"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 48,
+                "font": {
+                  "line_height": 1.15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "native_table_content",
+          "elements": [
+            {
+              "match": {
+                "type": "table",
+                "name": "comparison_table"
+              },
+              "patch": {}
+            },
+            {
+              "match": {
+                "type": "text",
+                "name": "table_takeaway"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 90,
+                "position": {
+                  "x": 0,
+                  "y": 350
+                },
+                "size": {
+                  "width": 1152,
+                  "height": 84
+                },
+                "font": {
+                  "size": 22,
+                  "line_height": 1.15
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "native_columns": {
+      "components": [
+        {
+          "id": "native_columns_heading",
+          "elements": [
+            {
+              "match": {
+                "type": "text",
+                "name": "headline"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 56,
+                "font": {
+                  "line_height": 1.15
+                }
+              }
+            },
+            {
+              "match": {
+                "type": "text",
+                "name": "subtitle"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 48,
+                "font": {
+                  "line_height": 1.15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "native_columns_content",
+          "elements": [
+            {
+              "match": {
+                "type": "chart",
+                "name": "column_chart"
+              },
+              "patch": {}
+            },
+            {
+              "match": {
+                "type": "text",
+                "name": "chart_takeaway"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 72,
+                "font": {
+                  "line_height": 1.15
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "native_lines": {
+      "components": [
+        {
+          "id": "native_lines_heading",
+          "elements": [
+            {
+              "match": {
+                "type": "text",
+                "name": "headline"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 56,
+                "font": {
+                  "line_height": 1.15
+                }
+              }
+            },
+            {
+              "match": {
+                "type": "text",
+                "name": "subtitle"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 48,
+                "font": {
+                  "line_height": 1.15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "native_lines_content",
+          "elements": [
+            {
+              "match": {
+                "type": "chart",
+                "name": "line_chart"
+              },
+              "patch": {}
+            },
+            {
+              "match": {
+                "type": "text",
+                "name": "chart_takeaway"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 80,
+                "font": {
+                  "line_height": 1.15
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "native_donut": {
+      "components": [
+        {
+          "id": "native_donut_heading",
+          "elements": [
+            {
+              "match": {
+                "type": "text",
+                "name": "headline"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 56,
+                "font": {
+                  "line_height": 1.15
+                }
+              }
+            },
+            {
+              "match": {
+                "type": "text",
+                "name": "subtitle"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 48,
+                "font": {
+                  "line_height": 1.15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "native_donut_content",
+          "elements": [
+            {
+              "match": {
+                "type": "chart",
+                "name": "doughnut_chart"
+              },
+              "patch": {}
+            },
+            {
+              "match": {
+                "type": "text",
+                "name": "chart_takeaway"
+              },
+              "patch": {
+                "min_length": 1,
+                "max_length": 80,
+                "font": {
+                  "line_height": 1.15
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "description": "Original Standard layout prototypes, real authorized bundled raster assets, no substitutions, no database/config/provider calls",
+  "results": [
+    {
+      "layout_id": "left_image_right_cover_text_7212",
+      "status": "pass",
+      "actual_image_refs": [
+        "/static/images/replaceable_template_image.png"
+      ],
+      "pptx_bytes": 41338,
+      "warnings": 1
+    },
+    {
+      "layout_id": "left_chart_right_title_description_5880",
+      "status": "pass",
+      "actual_image_refs": [],
+      "pptx_bytes": 35630,
+      "warnings": 0
+    },
+    {
+      "layout_id": "left_image_right_details_2189",
+      "status": "pass",
+      "actual_image_refs": [
+        "/static/images/replaceable_template_image.png"
+      ],
+      "pptx_bytes": 41201,
+      "warnings": 0
+    },
+    {
+      "layout_id": "left_image_right_title_strategy_cards_6875",
+      "status": "pass",
+      "actual_image_refs": [
+        "/static/images/replaceable_template_image.png",
+        "static/image6-d77d5bd67ea3.png"
+      ],
+      "pptx_bytes": 41699,
+      "warnings": 1
+    },
+    {
+      "layout_id": "left_text_list_right_title_note_4909",
+      "status": "pass",
+      "actual_image_refs": [],
+      "pptx_bytes": 29190,
+      "warnings": 0
+    },
+    {
+      "layout_id": "title_image_background_center_card_1475",
+      "status": "rejected",
+      "error": "slides[0].ui.components[3].elements[2].data: Only local PNG/JPEG image files are supported; SVG and other formats are rejected"
+    },
+    {
+      "layout_id": "center_title_cards_2395",
+      "status": "pass",
+      "actual_image_refs": [
+        "/static/images/replaceable_template_image.png"
+      ],
+      "pptx_bytes": 41276,
+      "warnings": 4
+    },
+    {
+      "layout_id": "title_metric_card_grid_7973",
+      "status": "pass",
+      "actual_image_refs": [],
+      "pptx_bytes": 30214,
+      "warnings": 6
+    },
+    {
+      "layout_id": "left_timeline_center_image_right_title_6170",
+      "status": "pass",
+      "actual_image_refs": [
+        "/static/images/replaceable_template_image.png"
+      ],
+      "pptx_bytes": 41396,
+      "warnings": 0
+    },
+    {
+      "layout_id": "title_index_grid_3810",
+      "status": "pass",
+      "actual_image_refs": [],
+      "pptx_bytes": 29859,
+      "warnings": 0
+    },
+    {
+      "layout_id": "title_description_metric_cards_2015",
+      "status": "pass",
+      "actual_image_refs": [],
+      "pptx_bytes": 29753,
+      "warnings": 0
+    }
+  ]
+}

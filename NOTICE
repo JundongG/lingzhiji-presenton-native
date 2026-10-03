@@ -1,0 +1,17 @@
+Lingzhiji Presenton Native
+Independent, unofficial add-on. Not endorsed by or affiliated with Presenton.
+
+This source add-on integrates with Presenton 0.9.11-beta at upstream commit
+e158a014cc1e29da0a27fe539db08dcbcea5c69d.
+Presenton Copyright 2025 presenton. Licensed under Apache License 2.0.
+Applicable upstream notices are preserved in licenses/UPSTREAM-NOTICE.txt.
+
+New add-on source and modifications are dated 2026-10-03 and licensed under
+Apache License 2.0. Original upstream notices and licenses remain applicable.
+
+No @presenton/export-core bundle, private high-quality export implementation,
+model credential, or user configuration is distributed by this add-on. Original
+upstream brand assets retain their attribution; they imply no endorsement.
+The native conversion uses python-pptx plus pinned module-local workbook
+subclasses relying on version 1.0.2 internal extension points.
+See docs/THIRD_PARTY_LICENSES.md for dependency versions and license sources.

@@ -1,0 +1,246 @@
+{
+  "upstream_commit": "e158a014cc1e29da0a27fe539db08dcbcea5c69d",
+  "upstream_version": "0.9.11-beta",
+  "release": "0.1.0-experimental",
+  "patch_sha256": "8f1f7e6fd28ab6acb01b4d82be8052f1908003e823d4f3922f821e4bf4f8254b",
+  "modified_upstream_files": [
+    "nginx.conf",
+    "servers/fastapi/api/lifespan.py",
+    "servers/fastapi/api/main.py",
+    "servers/fastapi/api/v1/ppt/endpoints/chat.py",
+    "servers/fastapi/api/v1/ppt/router.py",
+    "servers/fastapi/services/presenton_cloud_proxy.py",
+    "servers/nextjs/app/(presentation-generator)/(dashboard)/Components/DashboardNav.tsx",
+    "servers/nextjs/app/(presentation-generator)/(dashboard)/Components/DashboardSidebar.tsx",
+    "servers/nextjs/app/(presentation-generator)/(dashboard)/dashboard/components/DashboardPage.tsx",
+    "servers/nextjs/app/(presentation-generator)/(dashboard)/dashboard/components/EmptyState.tsx",
+    "servers/nextjs/app/(presentation-generator)/(dashboard)/dashboard/components/Header.tsx",
+    "servers/nextjs/app/(presentation-generator)/(dashboard)/dashboard/components/LegacyPresentationsTable.tsx",
+    "servers/nextjs/app/(presentation-generator)/(dashboard)/dashboard/components/PresentationCard.tsx",
+    "servers/nextjs/app/(presentation-generator)/(dashboard)/dashboard/components/PresentationGrid.tsx",
+    "servers/nextjs/app/(presentation-generator)/(dashboard)/settings/ImageProvider.tsx",
+    "servers/nextjs/app/(presentation-generator)/(dashboard)/settings/PrivacySettings.tsx",
+    "servers/nextjs/app/(presentation-generator)/(dashboard)/settings/SettingPage.tsx",
+    "servers/nextjs/app/(presentation-generator)/(dashboard)/settings/SettingSideBar.tsx",
+    "servers/nextjs/app/(presentation-generator)/(dashboard)/settings/TextProvider.tsx",
+    "servers/nextjs/app/(presentation-generator)/(dashboard)/settings/UserAccountSettings.tsx",
+    "servers/nextjs/app/(presentation-generator)/(dashboard)/settings/WebSearchProvider.tsx",
+    "servers/nextjs/app/(presentation-generator)/outline/components/EmptyStateView.tsx",
+    "servers/nextjs/app/(presentation-generator)/outline/components/OutlineContent.tsx",
+    "servers/nextjs/app/(presentation-generator)/outline/components/OutlineItem.tsx",
+    "servers/nextjs/app/(presentation-generator)/outline/components/OutlinePage.tsx",
+    "servers/nextjs/app/(presentation-generator)/outline/components/OutlinePromptBar.tsx",
+    "servers/nextjs/app/(presentation-generator)/outline/components/OutlineStandardHeader.tsx",
+    "servers/nextjs/app/(presentation-generator)/outline/page.tsx",
+    "servers/nextjs/app/(presentation-generator)/presentation/components/Chat.tsx",
+    "servers/nextjs/app/(presentation-generator)/presentation/components/KeyboardShortcutsDialog.tsx",
+    "servers/nextjs/app/(presentation-generator)/presentation/components/NewSlide.tsx",
+    "servers/nextjs/app/(presentation-generator)/presentation/components/PresentationActions.tsx",
+    "servers/nextjs/app/(presentation-generator)/presentation/components/PresentationHeader.tsx",
+    "servers/nextjs/app/(presentation-generator)/presentation/components/PresentationPage.tsx",
+    "servers/nextjs/app/(presentation-generator)/presentation/components/SidePanel.tsx",
+    "servers/nextjs/app/(presentation-generator)/presentation/components/SlideActionBar.tsx",
+    "servers/nextjs/app/(presentation-generator)/presentation/hooks/useAutoSave.tsx",
+    "servers/nextjs/app/(presentation-generator)/services/api/presentation-generation.ts",
+    "servers/nextjs/app/(presentation-generator)/upload/components/AdvanceSettings.tsx",
+    "servers/nextjs/app/(presentation-generator)/upload/components/ConfigurationSelects.tsx",
+    "servers/nextjs/app/(presentation-generator)/upload/components/CurrentConfig.tsx",
+    "servers/nextjs/app/(presentation-generator)/upload/components/GenerationModeDialog.tsx",
+    "servers/nextjs/app/(presentation-generator)/upload/components/LanguageSelector.tsx",
+    "servers/nextjs/app/(presentation-generator)/upload/components/NumberOfSlide.tsx",
+    "servers/nextjs/app/(presentation-generator)/upload/components/PromptInput.tsx",
+    "servers/nextjs/app/(presentation-generator)/upload/components/SupportingDoc.tsx",
+    "servers/nextjs/app/(presentation-generator)/upload/page.tsx",
+    "servers/nextjs/app/apple-icon.png",
+    "servers/nextjs/app/favicon.ico",
+    "servers/nextjs/app/global-error.tsx",
+    "servers/nextjs/app/icon1.svg",
+    "servers/nextjs/app/icon2.png",
+    "servers/nextjs/app/layout.tsx",
+    "servers/nextjs/app/not-found.tsx",
+    "servers/nextjs/app/providers.tsx",
+    "servers/nextjs/components/Auth/AuthGate.tsx",
+    "servers/nextjs/components/OnBoarding/FinalStep.tsx",
+    "servers/nextjs/components/OnBoarding/OnBoardingHeader.tsx",
+    "servers/nextjs/components/OnBoarding/OnBoardingSlidebar.tsx",
+    "servers/nextjs/components/ui/overlay-loader.tsx",
+    "servers/nextjs/components/ui/presenton-splash-loader.tsx",
+    "servers/nextjs/components/ui/sonner.tsx",
+    "servers/nextjs/tailwind.config.ts"
+  ],
+  "overlay": [
+    {
+      "path": "docs/LINGZHIJI_UI_LOCALIZATION.md",
+      "sha256": "adb3c6ce2bb790c86325a8c0845e7dd020026c154f502a6bbc46897081c34d0f"
+    },
+    {
+      "path": "scripts/update_native_editable_template.mjs",
+      "sha256": "8ed616d72ef19d8d4779f3eb88059cc2aa3c2917fdf54969bcc291c07cd7c1b9"
+    },
+    {
+      "path": "servers/fastapi/api/v1/ppt/endpoints/native_pptx.py",
+      "sha256": "dfef372e5e5e3ef1ee48d05177a7077864f9b72d5148cd123cdbe296185ed06f"
+    },
+    {
+      "path": "servers/fastapi/api/v1/ppt/endpoints/native_pptx_download.py",
+      "sha256": "8d92577cc6f254be8b8d240a18dd229f984521cc9a91aff6f8db19db9f5300b3"
+    },
+    {
+      "path": "servers/fastapi/services/native_pptx_assets.py",
+      "sha256": "daebdf5d6eddbfd9e0e21aa6744de18a18bd2570c38c55e18e6a91209624f9e1"
+    },
+    {
+      "path": "servers/fastapi/services/native_pptx_downloads.py",
+      "sha256": "4d647516d418bf1e4c2c7e8eb7c9c3bf75b2be857b7209c0910fff70e3cc977a"
+    },
+    {
+      "path": "servers/fastapi/services/native_standard_pptx.py",
+      "sha256": "f2e25ff4dd27b69d8d4f0a98dea6a51ff5e9d36133792230f47e99c7648034ae"
+    },
+    {
+      "path": "servers/fastapi/tests/fixtures/native_editable_real_model_before_v2.NOTICE",
+      "sha256": "c97b1395b05b1d955e638c3a72e430f76686120da00ebfb02f27ae8e7916f0df"
+    },
+    {
+      "path": "servers/fastapi/tests/fixtures/native_editable_real_model_before_v2.json",
+      "sha256": "90f481cc67e1395e6d5ccd5fd3162c4f2332a2920904bd76b41af43664863506"
+    },
+    {
+      "path": "servers/fastapi/tests/fixtures/native_standard_zh.json",
+      "sha256": "41470965c789425b33d79a384c1cfa6de6456fadd99bff4ed800e882faad3fef"
+    },
+    {
+      "path": "servers/fastapi/tests/native_standard_export_smoke.py",
+      "sha256": "17a1b9d5a51d6104a86c25ddab538faa5fb78a374a841bdddd683b7583da60dd"
+    },
+    {
+      "path": "servers/fastapi/tests/native_standard_template_matrix.py",
+      "sha256": "53df26f3acc6cc5a8174a786d4f7f8f0b925b7f16bd58c5a829c224d87dbf27e"
+    },
+    {
+      "path": "servers/fastapi/tests/test_native_pptx_assets.py",
+      "sha256": "2e978e9f268b7e5625091593e2b12c2e79df25cb6482844b504d24dd87c28a19"
+    },
+    {
+      "path": "servers/fastapi/tests/test_native_pptx_downloads.py",
+      "sha256": "82da162c713b598c6db5bb7f114c3b6e4f5cde5fb2dde28735d6b8f0ac1bff4f"
+    },
+    {
+      "path": "servers/fastapi/tests/test_native_pptx_route.py",
+      "sha256": "caff52fffa3776c0eafa336e22edf20f022c1bbb0ab364235a9e484c89517de9"
+    },
+    {
+      "path": "servers/fastapi/tests/unit/test_native_editable_template.py",
+      "sha256": "83339e41135cb14da0e4d202dc9191e9665ba3c9ddabade280174b99f205ca9a"
+    },
+    {
+      "path": "servers/fastapi/tests/unit/test_native_standard_images.py",
+      "sha256": "bbe1b9e057de247522b134d5ed930f0920db15adadf6fd2bcb47890526df4b9d"
+    },
+    {
+      "path": "servers/fastapi/tests/unit/test_native_standard_pptx.py",
+      "sha256": "b083e6286a3ccda807e7492ff40f169b139079f1efc68d715df8eb25735e9f02"
+    },
+    {
+      "path": "servers/fastapi/tests/unit/test_sse_keepalive.py",
+      "sha256": "9b5a485350decd40465c5e62207d2e1bc5902de8d50bb81ff3b12fa7021c01e8"
+    },
+    {
+      "path": "servers/fastapi/utils/sse_keepalive.py",
+      "sha256": "b37c349bc07fc057ead5857b419a0112f93a8a10cd0aa29cb0f1192cabc59e9f"
+    },
+    {
+      "path": "servers/nextjs/app/(presentation-generator)/presentation/components/NativeLayoutAdjustDialog.tsx",
+      "sha256": "f0117f59bf45383bc700d2e97daea5a75949716b505621668aac17b10e76c83c"
+    },
+    {
+      "path": "servers/nextjs/app/(presentation-generator)/presentation/utils/nativeCanvasDiagnostics.ts",
+      "sha256": "346299d96992c0c91b9da7d6523fe17292629949e50ada2a8acde1f205b28337"
+    },
+    {
+      "path": "servers/nextjs/app/(presentation-generator)/presentation/utils/nativeEditableLayout.ts",
+      "sha256": "9e8cbdbcc0fa7476061fea3b6e95b0192f986e8bf9825392eefb840a87afc85d"
+    },
+    {
+      "path": "servers/nextjs/app/(presentation-generator)/presentation/utils/nativeEditableLayout.v2.json",
+      "sha256": "807f33ddc6cc2ba775eb1745bbaf8bb0683988e0b0a42ed3434883e5d85dbb5b"
+    },
+    {
+      "path": "servers/nextjs/app/(presentation-generator)/presentation/utils/nativeLayoutAdjustmentPlan.ts",
+      "sha256": "1d6e7d361f07dc142b2c018fe97bb4ff946dbbc754d1b0943e6da075a69e0d2b"
+    },
+    {
+      "path": "servers/nextjs/app/(presentation-generator)/presentation/utils/nativePptxExport.ts",
+      "sha256": "3b0b36b1f96ae6f4b9a273cd140df6088797f0019f0a91d2cac3eb6f71ad879a"
+    },
+    {
+      "path": "servers/nextjs/app/icon.png",
+      "sha256": "304c0fa4e1e9ec6af2284a927ab53454a47030edf0d61c08b71a1059aa967f02"
+    },
+    {
+      "path": "servers/nextjs/lib/ui-i18n/index.tsx",
+      "sha256": "65401f0de97c6a9201268722863dfb3d333a714f4bcf61c9687b91e1d4ca1a4f"
+    },
+    {
+      "path": "servers/nextjs/lib/ui-i18n/messages.ts",
+      "sha256": "37c9b5fc9766d36544a1aa40a51a0eeafe880423d27253796cfebfc89cdec360"
+    },
+    {
+      "path": "servers/nextjs/public/brand/README.md",
+      "sha256": "e3bd2f0dd265ca0ddc0f7f51bd1624f9fce8dcac1ca7e8aa30baeffcb3bd236b"
+    },
+    {
+      "path": "servers/nextjs/public/brand/lingzhiji-logo.png",
+      "sha256": "304c0fa4e1e9ec6af2284a927ab53454a47030edf0d61c08b71a1059aa967f02"
+    },
+    {
+      "path": "servers/nextjs/public/upstream-brand/README.md",
+      "sha256": "7312e81044cc5c488a8ec13cd76b5209f182227a220350c4a4ac1aa0825f495a"
+    },
+    {
+      "path": "servers/nextjs/public/upstream-brand/favicon.ico",
+      "sha256": "ec50e81f37300f28aa0062e2c64bce31203449ac5419255d2678c4bbaa4d90ed"
+    },
+    {
+      "path": "servers/nextjs/public/upstream-brand/icon1.svg",
+      "sha256": "37ed0b94a7ee9428e9f0ae1b3c090105dea3964e9270f727af5f2a0413ca57ff"
+    },
+    {
+      "path": "servers/nextjs/public/upstream-brand/icon2.png",
+      "sha256": "e40d10800e25e1fae433f465606d6d6ff7cf5d72789f8cf6933f5e25808b0df4"
+    },
+    {
+      "path": "servers/nextjs/tests/native-canvas-diagnostics.test.mjs",
+      "sha256": "8fedcad89b7a04c583bb997d62e4e2a8f884b5cd6697ddb9df9bd207eacd0d5d"
+    },
+    {
+      "path": "servers/nextjs/tests/native-editable-layout.test.mjs",
+      "sha256": "b836d2fe5785c348dfe47661f2539911fa398002861729ed0bfcb9821e36fd12"
+    },
+    {
+      "path": "servers/nextjs/tests/native-layout-adjustment-plan.test.mjs",
+      "sha256": "14fdbd57b025e1ff0ba7a1a22e5276510da36d3ac52c3711b795dfeb05f66531"
+    },
+    {
+      "path": "servers/nextjs/tests/native-pptx-export.test.mjs",
+      "sha256": "13636c23b2d9be5eb6345217604fda3a8af7529ce4dacd9335e8ad143a08865e"
+    },
+    {
+      "path": "servers/nextjs/tests/ui-i18n.test.mjs",
+      "sha256": "13bebc3f15f6195255dacf71de37967f943e9bba47244a05a138902a950b06e7"
+    },
+    {
+      "path": "templates/native_editable/NOTICE",
+      "sha256": "baf4da819e583e928179da141b60bcc12541fdb620904657776495dd7e45824f"
+    },
+    {
+      "path": "templates/native_editable/static/thumbnail.png",
+      "sha256": "78c59d5a9f974b5e6637d6db8b3ec925b2d5e2169e296ddc6009b154c4e1a244"
+    },
+    {
+      "path": "templates/native_editable/template.json",
+      "sha256": "16c063f652076160630d39283c21f14885b0003cb3d9d1b8d9dd18d61df6e02c"
+    }
+  ],
+  "scope": "Source-only nonofficial Lingzhiji UI and native PPTX add-on; no proprietary exporter or runtime state"
+}

@@ -1,0 +1,1302 @@
+{
+  "title": "星澜实验室：五页中文原生导出合成测试",
+  "data_notice": "所有名称、项目、数字和日期均为虚构。此文件用于工程验证，不是用户材料。",
+  "slides": [
+    {
+      "id": "synthetic_1",
+      "description": "纯虚构中文测试；不含真实公司或客户数据",
+      "background": "#FFFFFF",
+      "components": [
+        {
+          "id": "heading",
+          "description": "固定坐标标题与副标题",
+          "position": {
+            "x": 64,
+            "y": 44
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "标题",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 96
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 36,
+                "color": "#243B62",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "text": "星澜实验室：中文原生编辑能力验证"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            },
+            {
+              "type": "text",
+              "name": "副标题",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 100
+              },
+              "size": {
+                "width": 1152,
+                "height": 42
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 20,
+                "color": "#50647F",
+                "bold": false
+              },
+              "runs": [
+                {
+                  "text": "2026 年度计划 · 五页合成数据 · Standard 画布"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            }
+          ]
+        },
+        {
+          "id": "content",
+          "description": "可编辑内容区",
+          "position": {
+            "x": 64,
+            "y": 220
+          },
+          "elements": [
+            {
+              "type": "container",
+              "name": "信息卡背景",
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 740,
+                "height": 370
+              },
+              "fill": {
+                "color": "#F3F7FA"
+              },
+              "border_radius": {
+                "tl": 16,
+                "tr": 16,
+                "bl": 16,
+                "br": 16
+              }
+            },
+            {
+              "type": "text",
+              "name": "简介",
+              "decorative": false,
+              "position": {
+                "x": 28,
+                "y": 26
+              },
+              "size": {
+                "width": 680,
+                "height": 94
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 30,
+                "color": "#243B62",
+                "bold": false
+              },
+              "runs": [
+                {
+                  "text": "本示例检验文字、形状、表格和三类图表的原生可编辑导出。"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            },
+            {
+              "type": "text-list",
+              "name": "检查清单",
+              "decorative": false,
+              "position": {
+                "x": 28,
+                "y": 144
+              },
+              "size": {
+                "width": 680,
+                "height": 192
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 30,
+                "color": "#243B62"
+              },
+              "marker": "bullet",
+              "gap": 16,
+              "marker_gap": 10,
+              "items": [
+                [
+                  {
+                    "text": "保留中文标题及完整段落"
+                  }
+                ],
+                [
+                  {
+                    "text": "表格单元格可以独立修改"
+                  }
+                ],
+                [
+                  {
+                    "text": "图表包含数据与嵌入工作簿"
+                  }
+                ]
+              ],
+              "max_items": 6,
+              "min_items": 1,
+              "max_item_length": 100,
+              "min_item_length": 1
+            },
+            {
+              "type": "vector",
+              "name": "原生圆形",
+              "shape": "ellipse",
+              "points": [
+                {
+                  "x": 824,
+                  "y": 30
+                },
+                {
+                  "x": 1084,
+                  "y": 290
+                }
+              ],
+              "fill": {
+                "color": "#16A6A1"
+              },
+              "closed": true
+            },
+            {
+              "type": "text",
+              "name": "圆形标签",
+              "decorative": false,
+              "position": {
+                "x": 864,
+                "y": 103
+              },
+              "size": {
+                "width": 180,
+                "height": 126
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 34,
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "text": "原生\n可编辑"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            }
+          ]
+        },
+        {
+          "id": "footer",
+          "description": "测试标记",
+          "position": {
+            "x": 64,
+            "y": 665
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "页码与数据说明",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 26
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 16,
+                "color": "#50647F",
+                "bold": false
+              },
+              "runs": [
+                {
+                  "text": "合成测试 · 所有数据均为虚构 | 01 / 05"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synthetic_2",
+      "description": "纯虚构中文测试；不含真实公司或客户数据",
+      "background": "#FFFFFF",
+      "components": [
+        {
+          "id": "heading",
+          "description": "固定坐标标题与副标题",
+          "position": {
+            "x": 64,
+            "y": 44
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "标题",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 96
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 36,
+                "color": "#243B62",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "text": "预算与里程碑：表格单元格保留可编辑性"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            },
+            {
+              "type": "text",
+              "name": "副标题",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 100
+              },
+              "size": {
+                "width": 1152,
+                "height": 42
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 20,
+                "color": "#50647F",
+                "bold": false
+              },
+              "runs": [
+                {
+                  "text": "单位：万元 · 以下项目与预算均为虚构"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            }
+          ]
+        },
+        {
+          "id": "content",
+          "description": "可编辑内容区",
+          "position": {
+            "x": 64,
+            "y": 220
+          },
+          "elements": [
+            {
+              "type": "table",
+              "name": "虚构预算表",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 340
+              },
+              "columns": [
+                {
+                  "runs": [
+                    {
+                      "text": "项目"
+                    }
+                  ],
+                  "font": {
+                    "family": "Noto Sans CJK SC",
+                    "size": 23,
+                    "color": "#FFFFFF",
+                    "bold": true
+                  },
+                  "color": {
+                    "color": "#243B62"
+                  },
+                  "alignment": "left"
+                },
+                {
+                  "runs": [
+                    {
+                      "text": "原预算"
+                    }
+                  ],
+                  "font": {
+                    "family": "Noto Sans CJK SC",
+                    "size": 23,
+                    "color": "#FFFFFF",
+                    "bold": true
+                  },
+                  "color": {
+                    "color": "#243B62"
+                  },
+                  "alignment": "left"
+                },
+                {
+                  "runs": [
+                    {
+                      "text": "修订预算"
+                    }
+                  ],
+                  "font": {
+                    "family": "Noto Sans CJK SC",
+                    "size": 23,
+                    "color": "#FFFFFF",
+                    "bold": true
+                  },
+                  "color": {
+                    "color": "#243B62"
+                  },
+                  "alignment": "left"
+                },
+                {
+                  "runs": [
+                    {
+                      "text": "目标日期"
+                    }
+                  ],
+                  "font": {
+                    "family": "Noto Sans CJK SC",
+                    "size": 23,
+                    "color": "#FFFFFF",
+                    "bold": true
+                  },
+                  "color": {
+                    "color": "#243B62"
+                  },
+                  "alignment": "left"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "runs": [
+                      {
+                        "text": "青岚研究"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "120"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "150"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "2026-11"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  }
+                ],
+                [
+                  {
+                    "runs": [
+                      {
+                        "text": "远星实验"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "90"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "105"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "2026-12"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  }
+                ],
+                [
+                  {
+                    "runs": [
+                      {
+                        "text": "澄海验证"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "60"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "75"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  },
+                  {
+                    "runs": [
+                      {
+                        "text": "2027-01"
+                      }
+                    ],
+                    "font": {
+                      "family": "Noto Sans CJK SC",
+                      "size": 23,
+                      "color": "#243B62",
+                      "bold": false
+                    },
+                    "color": {
+                      "color": "#F3F7FA"
+                    },
+                    "alignment": "left"
+                  }
+                ]
+              ],
+              "max_columns": 4,
+              "min_columns": 2,
+              "max_rows": 6,
+              "min_rows": 3
+            },
+            {
+              "type": "text",
+              "name": "表格结论",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 364
+              },
+              "size": {
+                "width": 1152,
+                "height": 54
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 24,
+                "color": "#50647F",
+                "bold": false
+              },
+              "runs": [
+                {
+                  "text": "重点：每个数字和日期都是可编辑文本，未转换成图片。"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            }
+          ]
+        },
+        {
+          "id": "footer",
+          "description": "测试标记",
+          "position": {
+            "x": 64,
+            "y": 665
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "页码与数据说明",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 26
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 16,
+                "color": "#50647F",
+                "bold": false
+              },
+              "runs": [
+                {
+                  "text": "合成测试 · 所有数据均为虚构 | 02 / 05"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synthetic_3",
+      "description": "纯虚构中文测试；不含真实公司或客户数据",
+      "background": "#FFFFFF",
+      "components": [
+        {
+          "id": "heading",
+          "description": "固定坐标标题与副标题",
+          "position": {
+            "x": 64,
+            "y": 44
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "标题",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 96
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 36,
+                "color": "#243B62",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "text": "阶段交付：原生柱状图"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            },
+            {
+              "type": "text",
+              "name": "副标题",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 100
+              },
+              "size": {
+                "width": 1152,
+                "height": 42
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 20,
+                "color": "#50647F",
+                "bold": false
+              },
+              "runs": [
+                {
+                  "text": "季度对比 · 单位：项 · 合成数值"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            }
+          ]
+        },
+        {
+          "id": "content",
+          "description": "可编辑内容区",
+          "position": {
+            "x": 64,
+            "y": 220
+          },
+          "elements": [
+            {
+              "type": "chart",
+              "name": "原生柱状图",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 870,
+                "height": 415
+              },
+              "chart_type": "bar",
+              "title": null,
+              "categories": [
+                "第一季度",
+                "第二季度",
+                "第三季度",
+                "第四季度"
+              ],
+              "series": [
+                {
+                  "name": "完成项目",
+                  "values": [
+                    12,
+                    18,
+                    25,
+                    32
+                  ]
+                }
+              ],
+              "colors": [
+                "#16A6A1",
+                "#4C86C6",
+                "#7B69BB",
+                "#E7A24C"
+              ],
+              "legend": false,
+              "legend_position": "bottom",
+              "x_axis": true,
+              "y_axis": true,
+              "x_axis_grid": false,
+              "y_axis_grid": true,
+              "x_axis_title": null,
+              "y_axis_title": "测试值",
+              "data_labels": "top",
+              "text_color": "#243B62",
+              "axis_color": "#CAD4E0",
+              "grid_color": "#E4EAF1"
+            },
+            {
+              "type": "text",
+              "name": "柱状图旁注",
+              "decorative": false,
+              "position": {
+                "x": 920,
+                "y": 28
+              },
+              "size": {
+                "width": 230,
+                "height": 280
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 25,
+                "color": "#50647F",
+                "bold": false
+              },
+              "runs": [
+                {
+                  "text": "数据可改\n\n柱形、坐标轴与标签均由原生图表生成。"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            }
+          ]
+        },
+        {
+          "id": "footer",
+          "description": "测试标记",
+          "position": {
+            "x": 64,
+            "y": 665
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "页码与数据说明",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 26
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 16,
+                "color": "#50647F",
+                "bold": false
+              },
+              "runs": [
+                {
+                  "text": "合成测试 · 所有数据均为虚构 | 03 / 05"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synthetic_4",
+      "description": "纯虚构中文测试；不含真实公司或客户数据",
+      "background": "#FFFFFF",
+      "components": [
+        {
+          "id": "heading",
+          "description": "固定坐标标题与副标题",
+          "position": {
+            "x": 64,
+            "y": 44
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "标题",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 96
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 36,
+                "color": "#243B62",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "text": "实验进展：双序列原生折线图"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            },
+            {
+              "type": "text",
+              "name": "副标题",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 100
+              },
+              "size": {
+                "width": 1152,
+                "height": 42
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 20,
+                "color": "#50647F",
+                "bold": false
+              },
+              "runs": [
+                {
+                  "text": "每月对比 · 单位：分 · 合成数值"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            }
+          ]
+        },
+        {
+          "id": "content",
+          "description": "可编辑内容区",
+          "position": {
+            "x": 64,
+            "y": 220
+          },
+          "elements": [
+            {
+              "type": "chart",
+              "name": "原生折线图",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 870,
+                "height": 415
+              },
+              "chart_type": "line",
+              "title": null,
+              "categories": [
+                "六月",
+                "七月",
+                "八月",
+                "九月",
+                "十月"
+              ],
+              "series": [
+                {
+                  "name": "方案甲",
+                  "values": [
+                    52,
+                    58,
+                    64,
+                    71,
+                    80
+                  ]
+                },
+                {
+                  "name": "方案乙",
+                  "values": [
+                    48,
+                    55,
+                    68,
+                    75,
+                    84
+                  ]
+                }
+              ],
+              "colors": [
+                "#16A6A1",
+                "#E7A24C"
+              ],
+              "legend": true,
+              "legend_position": "bottom",
+              "x_axis": true,
+              "y_axis": true,
+              "x_axis_grid": false,
+              "y_axis_grid": true,
+              "x_axis_title": null,
+              "y_axis_title": "测试值",
+              "data_labels": null,
+              "text_color": "#243B62",
+              "axis_color": "#CAD4E0",
+              "grid_color": "#E4EAF1"
+            },
+            {
+              "type": "text",
+              "name": "折线图旁注",
+              "decorative": false,
+              "position": {
+                "x": 920,
+                "y": 28
+              },
+              "size": {
+                "width": 230,
+                "height": 340
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 25,
+                "color": "#50647F",
+                "bold": false
+              },
+              "runs": [
+                {
+                  "text": "保留两组数据\n\n支持直接替换序列与分类，重新保存后数据仍可读取。"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            }
+          ]
+        },
+        {
+          "id": "footer",
+          "description": "测试标记",
+          "position": {
+            "x": 64,
+            "y": 665
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "页码与数据说明",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 26
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 16,
+                "color": "#50647F",
+                "bold": false
+              },
+              "runs": [
+                {
+                  "text": "合成测试 · 所有数据均为虚构 | 04 / 05"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synthetic_5",
+      "description": "纯虚构中文测试；不含真实公司或客户数据",
+      "background": "#FFFFFF",
+      "components": [
+        {
+          "id": "heading",
+          "description": "固定坐标标题与副标题",
+          "position": {
+            "x": 64,
+            "y": 44
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "标题",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 96
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 36,
+                "color": "#243B62",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "text": "资源分配：原生圆环图与后续行动"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            },
+            {
+              "type": "text",
+              "name": "副标题",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 100
+              },
+              "size": {
+                "width": 1152,
+                "height": 42
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 20,
+                "color": "#50647F",
+                "bold": false
+              },
+              "runs": [
+                {
+                  "text": "合计 100% · 仅用于测试图表数据与工作簿"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            }
+          ]
+        },
+        {
+          "id": "content",
+          "description": "可编辑内容区",
+          "position": {
+            "x": 64,
+            "y": 220
+          },
+          "elements": [
+            {
+              "type": "chart",
+              "name": "原生圆环图",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 870,
+                "height": 415
+              },
+              "chart_type": "donut",
+              "title": null,
+              "categories": [
+                "研发",
+                "验证",
+                "交付"
+              ],
+              "series": [
+                {
+                  "name": "资源占比",
+                  "values": [
+                    50,
+                    30,
+                    20
+                  ]
+                }
+              ],
+              "colors": [
+                "#16A6A1",
+                "#4C86C6",
+                "#E7A24C"
+              ],
+              "legend": true,
+              "legend_position": "bottom",
+              "x_axis": true,
+              "y_axis": true,
+              "x_axis_grid": false,
+              "y_axis_grid": true,
+              "x_axis_title": null,
+              "y_axis_title": null,
+              "data_labels": "outside",
+              "text_color": "#243B62",
+              "axis_color": "#CAD4E0",
+              "grid_color": "#E4EAF1"
+            },
+            {
+              "type": "text",
+              "name": "圆环图旁注",
+              "decorative": false,
+              "position": {
+                "x": 920,
+                "y": 28
+              },
+              "size": {
+                "width": 230,
+                "height": 335
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 25,
+                "color": "#50647F",
+                "bold": false
+              },
+              "runs": [
+                {
+                  "text": "下一步\n\n1. 修改标题\n2. 更新图表数值\n3. 重新导出核对"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            }
+          ]
+        },
+        {
+          "id": "footer",
+          "description": "测试标记",
+          "position": {
+            "x": 64,
+            "y": 665
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "页码与数据说明",
+              "decorative": false,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1152,
+                "height": 26
+              },
+              "font": {
+                "family": "Noto Sans CJK SC",
+                "size": 16,
+                "color": "#50647F",
+                "bold": false
+              },
+              "runs": [
+                {
+                  "text": "合成测试 · 所有数据均为虚构 | 05 / 05"
+                }
+              ],
+              "max_length": 300,
+              "min_length": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "cover_title": "修订版：星澜实验室面向下一阶段的研究、验证与交付协同计划及资源配置说明",
+    "table_budget": "168",
+    "column_values": [
+      15,
+      22,
+      29,
+      41
+    ],
+    "line_values": [
+      50,
+      59,
+      73,
+      82,
+      91
+    ],
+    "donut_values": [
+      46,
+      34,
+      20
+    ]
+  },
+  "license": "SPDX-License-Identifier: Apache-2.0",
+  "visual_review_notes": [
+    "The fixture line chart explicitly disables dense point labels after LibreOffice QA; axes, legend and both data series remain.",
+    "The independent exporter suppresses Office theme shadows when absent from the source UI."
+  ]
+}
